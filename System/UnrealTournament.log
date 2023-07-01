@@ -1,4 +1,4 @@
-﻿Log: Log file open, 07/01/23 11:43:06
+﻿Log: Log file open, 07/01/23 12:25:53
 Init: Name subsystem initialized
 Init: Version: 469
 Init: Revision: c (Release)
@@ -19,9 +19,39 @@ Init: Working set: 32000 / 159000
 Init: CPU Page size=4096, Processors=21
 Init: CPU Detected: 13th Gen Intel(R) Core(TM) i9-13900HX (GenuineIntel)
 Init: CPU Features: INVARIANT_TSC CMov FPU RDTSC PAE MMX SSE SSE2 SSE3 SSSE3 SSE4_1 SSE4_2 AVX AVX2
-Init: Timer Frequency=2419.198495 MHz - Timing Source = RDTSC
-Localization: No localization: Startup.IDDIALOG_WizardDialog.IDC_WizardDialog (int)
+Init: Timer Frequency=2419.198395 MHz - Timing Source = RDTSC
 Init: Unreal engine initialized
+Log: Deleting temporary file: ../Cache\0000.tmp
+Log: Deleting temporary file: ../Cache\0002.tmp
+Log: Deleting temporary file: ../Cache\0004.tmp
+Log: Deleting temporary file: ../Cache\0006.tmp
+Log: Deleting temporary file: ../Cache\0008.tmp
+Log: Deleting temporary file: ../Cache\000A.tmp
+Log: Deleting temporary file: ../Cache\000C.tmp
+Log: Deleting temporary file: ../Cache\000E.tmp
+Log: Deleting temporary file: ../Cache\0010.tmp
+Log: Deleting temporary file: ../Cache\0012.tmp
+Log: Deleting temporary file: ../Cache\0014.tmp
+Log: Deleting temporary file: ../Cache\0016.tmp
+Log: Deleting temporary file: ../Cache\0018.tmp
+Log: Deleting temporary file: ../Cache\001A.tmp
+Log: Deleting temporary file: ../Cache\001C.tmp
+Log: Deleting temporary file: ../Cache\001E.tmp
+Log: Deleting temporary file: ../Cache\0020.tmp
+Log: Deleting temporary file: ../Cache\0022.tmp
+Log: Deleting temporary file: ../Cache\0024.tmp
+Log: Deleting temporary file: ../Cache\0026.tmp
+Log: Deleting temporary file: ../Cache\0028.tmp
+Log: Deleting temporary file: ../Cache\002A.tmp
+Log: Deleting temporary file: ../Cache\002C.tmp
+Log: Deleting temporary file: ../Cache\002E.tmp
+Log: Deleting temporary file: ../Cache\0030.tmp
+Log: Deleting temporary file: ../Cache\0032.tmp
+Log: Deleting temporary file: ../Cache\0034.tmp
+Log: Deleting temporary file: ../Cache\0036.tmp
+Log: Deleting temporary file: ../Cache\0038.tmp
+Log: Deleting temporary file: ../Cache\003A.tmp
+Log: Deleting temporary file: ../Cache\003C.tmp
 Log: Bound to WinDrv.dll
 Init: Enhanced Pointer Precision Disabled
 Init: Initializing DirectDraw
@@ -62,8 +92,8 @@ Log: Game class is 'UTIntro'
 Log: Bringing Level Entry.MyLevel up for play (0)...
 ScriptLog: InitGame: 
 ScriptLog: Base Mutator is Entry.Mutator0
-Log: Browse: CityIntro.unr?Name=adrak0?Class=Botpack.TFemale1?team=255?skin=FCommandoSkins.cmdo?Face=FCommandoSkins.ivana?Voice=BotPack.VoiceFemaleOne
-Log: LoadMap: CityIntro.unr?Name=adrak0?Class=Botpack.TFemale1?team=255?skin=FCommandoSkins.cmdo?Face=FCommandoSkins.ivana?Voice=BotPack.VoiceFemaleOne
+Log: Browse: CityIntro.unr?Name=adrak0?Class=Botpack.TFemale1?team=1?skin=FCommandoSkins.cmdo?Face=FCommandoSkins.ivana?Voice=BotPack.VoiceFemaleOne
+Log: LoadMap: CityIntro.unr?Name=adrak0?Class=Botpack.TFemale1?team=1?skin=FCommandoSkins.cmdo?Face=FCommandoSkins.ivana?Voice=BotPack.VoiceFemaleOne
 Log: Collecting garbage
 Log: Purging garbage
 Log: Unloading: Package WinDrv
@@ -71,11 +101,11 @@ Log: Unloading: Package Render
 Log: Garbage: objects: 16928->16926; refs: 227992
 Log: Game class is 'UTIntro'
 Log: Bringing Level CityIntro.MyLevel up for play (0)...
-ScriptLog: InitGame: ?Name=adrak0?Class=Botpack.TFemale1?team=255?skin=FCommandoSkins.cmdo?Face=FCommandoSkins.ivana?Voice=BotPack.VoiceFemaleOne
+ScriptLog: InitGame: ?Name=adrak0?Class=Botpack.TFemale1?team=1?skin=FCommandoSkins.cmdo?Face=FCommandoSkins.ivana?Voice=BotPack.VoiceFemaleOne
 ScriptLog: Base Mutator is CityIntro.Mutator0
 Init: Initialized moving brush tracker for Level CityIntro.MyLevel
 Log: Bound to UWeb.dll
-ScriptLog: Team 255
+ScriptLog: Team 1
 ScriptLog: Login: adrak0
 Log: Possessed PlayerPawn: TFemale1 CityIntro.TFemale0
 Init: Input system initialized for WindowsViewport0
@@ -117,7 +147,6 @@ DevGraphics: XOpenGL: MaxUniformBlockSize: 65536
 DevGraphics: XOpenGL: Flush
 Init: XOpenGL: Setting VSync: Adaptive
 Log: XOpenGL: BindlessHandleStorage: Shader Storage Buffer Object
-Log: XOpenGL: Initializing MaxBindlessTextures to 2097152
 DevGraphics: XOpenGL: invalid or unused shader var (UniformLocation) bHitTesting in DrawSimple
 DevGraphics: XOpenGL: invalid or unused shader var (UniformLocation) LineFlags in DrawSimple
 DevGraphics: XOpenGL: invalid or unused shader var (UniformLocation) TexCoords in DrawTile
@@ -143,19 +172,19 @@ Init: Galaxy is using DirectSound
 Init: Galaxy initialized
 DevAudio: Galaxy SetViewport: WindowsViewport0
 Init: Game engine initialized
-Log: Startup time: 73.825515 seconds
+Log: Startup time: 0.884035 seconds
 Warning: FIREWALL: Freed XP.SP2 Firewall Object
 Log: URL: Adding default option Name=adrak0
 Log: URL: Adding default option Class=Botpack.TFemale1
-Log: URL: Adding default option team=255
+Log: URL: Adding default option team=1
 Log: URL: Adding default option skin=FCommandoSkins.cmdo
 Log: URL: Adding default option Face=FCommandoSkins.ivana
 Log: URL: Adding default option Voice=BotPack.VoiceFemaleOne
-Log: Browse: Index.unr?entry?Name=adrak0?Class=Botpack.TFemale1?team=255?skin=FCommandoSkins.cmdo?Face=FCommandoSkins.ivana?Voice=BotPack.VoiceFemaleOne
+Log: Browse: Index.unr?entry?Name=adrak0?Class=Botpack.TFemale1?team=1?skin=FCommandoSkins.cmdo?Face=FCommandoSkins.ivana?Voice=BotPack.VoiceFemaleOne
 Log: Failed; returning to Entry
 Init: Shut down moving brush tracker for Level CityIntro.MyLevel
 Log: Spawning new actor for Viewport WindowsViewport0
-ScriptLog: Team 255
+ScriptLog: Team 1
 ScriptLog: Login: adrak0
 Log: Possessed PlayerPawn: TFemale1 Entry.TFemale10
 DevAudio: Galaxy SetViewport: WindowsViewport0
@@ -164,502 +193,14 @@ ScriptLog: Calculated Effective GUI Scale: 1.000000
 Log: Bound to udemo.dll
 udemo: Startup hack successful!
 Log: UDEMO: Successfully got list of demos
-Init: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-Log: Resolving unreal.epicgames.com...
-Log: AInternetLink Resolve failed: Can't find host unreal.epicgames.com (WSAHOST_NOT_FOUND)
-Log: Resolving utmaster.epicgames.com...
-Log: Resolving master.333networks.com...
-Log: AInternetLink Resolve failed: Can't find host utmaster.epicgames.com (WSAHOST_NOT_FOUND)
-ScriptLog: UBrowserGSpyLink[utmaster.epicgames.com:28900]: Failed to resolve master server address, aborting.
-Log: Resolved master.333networks.com (81.205.81.173)
-ScriptLog: UBrowserGSpyLink: Master Server is master.333networks.com:28900
-Init: WinSock: I am M16 (192.168.29.8)
-ScriptLog: Timed out getting player replies.  Attempt 1
-ScriptLog: Timed out getting player replies.  Attempt 1
-ScriptLog: Ping Timeout from 74.91.124.251.  Attempt 1
-ScriptLog: Timed out getting player replies.  Attempt 1
-ScriptLog: Timed out getting player replies.  Attempt 1
-ScriptLog: Timed out getting player replies.  Attempt 1
-Log: Resolving unreal.epicgames.com...
-Log: AInternetLink Resolve failed: Can't find host unreal.epicgames.com (WSAHOST_NOT_FOUND)
-ScriptLog: Timed out getting player replies.  Attempt 1
-ScriptLog: Timed out getting player replies.  Attempt 1
-ScriptLog: Timed out getting player replies.  Attempt 1
-ScriptLog: Timed out getting player replies.  Attempt 1
-ScriptLog: Timed out getting player replies.  Attempt 1
-ScriptLog: Timed out getting player replies.  Attempt 1
-ScriptLog: Timed out getting player replies.  Attempt 1
-ScriptLog: Timed out getting player replies.  Attempt 1
-ScriptLog: Ping Timeout from 74.91.122.9.  Attempt 1
-ScriptLog: Timed out getting player replies.  Attempt 1
-ScriptLog: Timed out getting player replies.  Attempt 1
-ScriptLog: Timed out getting player replies.  Giving Up
-ScriptLog: Ping Timeout from 74.91.124.251 Giving Up
-ScriptLog: Timed out getting player replies.  Giving Up
-ScriptLog: Timed out getting player replies.  Giving Up
-ScriptLog: Timed out getting player replies.  Attempt 1
-ScriptLog: Timed out getting player replies.  Attempt 1
-ScriptLog: Timed out getting player replies.  Attempt 1
-ScriptLog: Ping Timeout from 74.91.124.251.  Attempt 1
-ScriptLog: Timed out getting player replies.  Attempt 1
-ScriptLog: Timed out getting player replies.  Attempt 1
-ScriptLog: Timed out getting player replies.  Attempt 1
-ScriptLog: Timed out getting player replies.  Attempt 1
-ScriptLog: Timed out getting player replies.  Attempt 1
-ScriptLog: Ping Timeout from 213.230.216.9.  Attempt 1
-ScriptLog: Ping Timeout from 74.91.122.9 Giving Up
-ScriptLog: Timed out getting player replies.  Giving Up
-ScriptLog: Timed out getting player replies.  Attempt 1
-ScriptLog: Timed out getting player replies.  Attempt 1
-ScriptLog: Timed out getting player replies.  Attempt 1
-Warning: Failed to load CTF-420-OutForBlood: Can't find file for package CTF-420-OutForBlood..
-Warning: Failed to load "Texture CTF-420-OutForBlood.Screenshot": Can't find file for package CTF-420-OutForBlood..
-ScriptLog: Timed out getting player replies.  Attempt 1
-ScriptLog: Ping Timeout from 213.230.216.9.  Attempt 1
-ScriptLog: Timed out getting player replies.  Attempt 1
-ScriptLog: Ping Timeout from 85.214.142.73.  Attempt 1
-ScriptLog: Timed out getting player replies.  Attempt 1
-ScriptLog: Ping Timeout from 74.91.124.251 Giving Up
-ScriptLog: Timed out getting player replies.  Attempt 1
-ScriptLog: Ping Timeout from 213.230.216.9.  Attempt 1
-ScriptLog: Ping Timeout from 81.205.81.173.  Attempt 1
-ScriptLog: Timed out getting player replies.  Attempt 1
-ScriptLog: Timed out getting player replies.  Attempt 1
-ScriptLog: Ping Timeout from 213.230.216.9.  Attempt 1
-ScriptLog: Timed out getting player replies.  Attempt 1
-ScriptLog: Ping Timeout from 213.230.216.9 Giving Up
-ScriptLog: Ping Timeout from 213.230.216.9 Giving Up
-ScriptLog: Ping Timeout from 85.214.142.73 Giving Up
-ScriptLog: Ping Timeout from 81.205.81.173 Giving Up
-ScriptLog: Ping Timeout from 213.230.216.9 Giving Up
-ScriptLog: Timed out getting player replies.  Attempt 1
-Log: Resolving unreal.epicgames.com...
-Log: AInternetLink Resolve failed: Can't find host unreal.epicgames.com (WSAHOST_NOT_FOUND)
-ScriptLog: Timed out getting player replies.  Attempt 1
-ScriptLog: Timed out getting player replies.  Attempt 1
-ScriptLog: Timed out getting player replies.  Attempt 1
-ScriptLog: Timed out getting player replies.  Attempt 1
-ScriptLog: Timed out getting player replies.  Attempt 1
-ScriptLog: Ping Timeout from 213.230.216.9 Giving Up
-ScriptLog: Timed out getting player replies.  Attempt 1
-ScriptLog: Timed out getting player replies.  Attempt 1
-ScriptLog: Timed out getting player replies.  Attempt 1
-ScriptLog: Timed out getting player replies.  Attempt 1
-ScriptLog: Timed out getting player replies.  Attempt 1
-ScriptLog: Timed out getting player replies.  Attempt 1
-ScriptLog: Timed out getting player replies.  Attempt 1
-ScriptLog: Timed out getting player replies.  Attempt 1
-ScriptLog: Timed out getting player replies.  Attempt 1
-ScriptLog: Ping Timeout from 2.233.126.192.  Attempt 1
-ScriptLog: Timed out getting player replies.  Attempt 1
-ScriptLog: Timed out getting player replies.  Attempt 1
-ScriptLog: Ping Timeout from 178.238.105.28.  Attempt 1
-ScriptLog: Timed out getting player replies.  Attempt 1
-ScriptLog: Ping Timeout from 51.158.144.133.  Attempt 1
-ScriptLog: Timed out getting player replies.  Attempt 1
-ScriptLog: Timed out getting player replies.  Attempt 1
-ScriptLog: Timed out getting player replies.  Giving Up
-ScriptLog: Timed out getting player replies.  Attempt 1
-ScriptLog: Timed out getting player replies.  Attempt 1
-ScriptLog: Timed out getting player replies.  Attempt 1
-ScriptLog: Timed out getting player replies.  Attempt 1
-ScriptLog: Timed out getting player replies.  Attempt 1
-ScriptLog: Timed out getting player replies.  Giving Up
-ScriptLog: Timed out getting player replies.  Attempt 1
-ScriptLog: Timed out getting player replies.  Attempt 1
-ScriptLog: Ping Timeout from 2.233.126.192 Giving Up
-ScriptLog: Timed out getting player replies.  Attempt 1
-ScriptLog: Timed out getting player replies.  Attempt 1
-ScriptLog: Timed out getting player replies.  Attempt 1
-ScriptLog: Timed out getting player replies.  Attempt 1
-ScriptLog: Timed out getting player replies.  Attempt 1
-ScriptLog: Timed out getting player replies.  Attempt 1
-ScriptLog: Timed out getting player replies.  Attempt 1
-ScriptLog: Ping Timeout from 68.103.38.126.  Attempt 1
-ScriptLog: Timed out getting player replies.  Attempt 1
-ScriptLog: Timed out getting player replies.  Attempt 1
-ScriptLog: Timed out getting player replies.  Attempt 1
-ScriptLog: Ping Timeout from 51.158.144.133 Giving Up
-ScriptLog: Timed out getting player replies.  Attempt 1
-ScriptLog: Timed out getting player replies.  Attempt 1
-ScriptLog: Timed out getting player replies.  Attempt 1
-ScriptLog: Timed out getting player replies.  Attempt 1
-ScriptLog: Timed out getting player replies.  Attempt 1
-ScriptLog: Timed out getting player replies.  Attempt 1
-ScriptLog: Timed out getting player replies.  Attempt 1
-ScriptLog: Ping Timeout from 178.238.105.28 Giving Up
-ScriptLog: Timed out getting player replies.  Attempt 1
-ScriptLog: Timed out getting player replies.  Attempt 1
-ScriptLog: Ping Timeout from 185.233.253.164.  Attempt 1
-ScriptLog: Timed out getting player replies.  Attempt 1
-ScriptLog: Timed out getting player replies.  Attempt 1
-ScriptLog: Timed out getting player replies.  Attempt 1
-ScriptLog: Timed out getting player replies.  Attempt 1
-ScriptLog: Ping Timeout from 68.103.38.126 Giving Up
-ScriptLog: Timed out getting player replies.  Giving Up
-ScriptLog: Timed out getting player replies.  Giving Up
-ScriptLog: Timed out getting player replies.  Giving Up
-ScriptLog: Timed out getting player replies.  Giving Up
-ScriptLog: Timed out getting player replies.  Attempt 1
-ScriptLog: Timed out getting player replies.  Attempt 1
-ScriptLog: Timed out getting player replies.  Giving Up
-ScriptLog: Timed out getting player replies.  Attempt 1
-ScriptLog: Ping Timeout from 176.181.38.39.  Attempt 1
-ScriptLog: Timed out getting player replies.  Attempt 1
-ScriptLog: Ping Timeout from 94.208.197.152.  Attempt 1
-ScriptLog: Timed out getting player replies.  Attempt 1
-ScriptLog: Timed out getting player replies.  Attempt 1
-ScriptLog: Timed out getting player replies.  Attempt 1
-ScriptLog: Timed out getting player replies.  Attempt 1
-ScriptLog: Timed out getting player replies.  Attempt 1
-ScriptLog: Timed out getting player replies.  Giving Up
-ScriptLog: Ping Timeout from 82.94.236.84.  Attempt 1
-ScriptLog: Timed out getting player replies.  Attempt 1
-ScriptLog: Timed out getting player replies.  Attempt 1
-ScriptLog: Timed out getting player replies.  Attempt 1
-ScriptLog: Timed out getting player replies.  Attempt 1
-ScriptLog: Timed out getting player replies.  Attempt 1
-ScriptLog: Ping Timeout from 213.230.216.9.  Attempt 1
-ScriptLog: Timed out getting player replies.  Attempt 1
-ScriptLog: Timed out getting player replies.  Attempt 1
-ScriptLog: Ping Timeout from 81.110.22.83.  Attempt 1
-ScriptLog: Timed out getting player replies.  Attempt 1
-ScriptLog: Ping Timeout from 185.233.253.164 Giving Up
-ScriptLog: Timed out getting player replies.  Attempt 1
-ScriptLog: Ping Timeout from 94.208.197.152 Giving Up
-ScriptLog: Timed out getting player replies.  Attempt 1
-ScriptLog: Ping Timeout from 176.181.38.39 Giving Up
-ScriptLog: Timed out getting player replies.  Giving Up
-ScriptLog: Ping Timeout from 82.94.236.84 Giving Up
-ScriptLog: Timed out getting player replies.  Giving Up
-ScriptLog: Timed out getting player replies.  Giving Up
-ScriptLog: Timed out getting player replies.  Attempt 1
-ScriptLog: Ping Timeout from 81.110.22.83 Giving Up
-ScriptLog: Timed out getting player replies.  Attempt 1
-ScriptLog: Timed out getting player replies.  Attempt 1
-ScriptLog: Ping Timeout from 213.230.216.9 Giving Up
-ScriptLog: Timed out getting player replies.  Attempt 1
-ScriptLog: Timed out getting player replies.  Attempt 1
 Log: URL: Adding default option Name=adrak0
 Log: URL: Adding default option Class=Botpack.TFemale1
-Log: URL: Adding default option team=255
+Log: URL: Adding default option team=1
 Log: URL: Adding default option skin=FCommandoSkins.cmdo
 Log: URL: Adding default option Face=FCommandoSkins.ivana
 Log: URL: Adding default option Voice=BotPack.VoiceFemaleOne
-Log: Browse: 139.162.235.20/Index.unr?Name=adrak0?Class=Botpack.TFemale1?team=255?skin=FCommandoSkins.cmdo?Face=FCommandoSkins.ivana?Voice=BotPack.VoiceFemaleOne
-Init: WinSock: Socket queue 32768 / 32768
-DevNet: Game client on port 0, rate 2600
-ScriptLog: Timed out getting player replies.  Attempt 1
-ScriptLog: Timed out getting player replies.  Attempt 1
-DevNet: PendingLevel received: CHALLENGE VER=469 CHALLENGE=-1030223034 STATS=0
-ScriptLog: Timed out getting player replies.  Attempt 1
-ScriptLog: Timed out getting player replies.  Attempt 1
-ScriptLog: Timed out getting player replies.  Attempt 1
-ScriptLog: Timed out getting player replies.  Attempt 1
-DevNet: PendingLevel received: USES GUID=D49A401645A67F44A042CEB0208415DC PKG=CTF-420-OutForBlood FLAGS=1 SIZE=361238 GEN=1 FNAME=CTF-420-OutForBlood.unr
-DevNet: PendingLevel received: USES GUID=D18A7B9211D38F04100067B9F6F8975A PKG=Engine FLAGS=1 SIZE=1220313 GEN=35 REALGEN=36 FNAME=Engine.u
-DevNet: PendingLevel received: USES GUID=4770B88411D38E3E100067B9F6F8975A PKG=Core FLAGS=1 SIZE=62694 GEN=13 REALGEN=15 FNAME=Core.u
-DevNet: PendingLevel received: USES GUID=FD6597E211D38A65E0006BA2D2321081 PKG=UTtech2 FLAGS=1 SIZE=3404233 GEN=1 FNAME=UTtech2.utx
-DevNet: PendingLevel received: USES GUID=1E90ACA811D1ED664544279700005453 PKG=Detail FLAGS=1 SIZE=1729964 GEN=1 FNAME=Detail.utx
-DevNet: PendingLevel received: USES GUID=4770B88811D38E3E100067B9F6F8975A PKG=Fire FLAGS=1 SIZE=19278 GEN=11 REALGEN=12 FNAME=Fire.u
-DevNet: PendingLevel received: USES GUID=1E90ACB011D1ED664544279700005453 PKG=GenIn FLAGS=1 SIZE=3039598 GEN=1 FNAME=GenIn.utx
-DevNet: PendingLevel received: USES GUID=8B3BC2C211D38CD4C00084B50A1E604F PKG=DDayFX FLAGS=1 SIZE=1494874 GEN=1 FNAME=DDayFX.utx
-DevNet: PendingLevel received: USES GUID=1E90ACAE11D1ED664544279700005453 PKG=GenFluid FLAGS=1 SIZE=5510043 GEN=1 FNAME=GenFluid.utx
-DevNet: PendingLevel received: USES GUID=1C69657611D38F44100067B9F6F8975A PKG=Botpack FLAGS=1 SIZE=40114923 GEN=34 FNAME=Botpack.u
-DevNet: PendingLevel received: USES GUID=4770B88C11D38E3E100067B9F6F8975A PKG=UnrealShare FLAGS=1 SIZE=22179683 GEN=9 FNAME=UnrealShare.u
-DevNet: PendingLevel received: USES GUID=4770B88D11D38E3E100067B9F6F8975A PKG=UnrealI FLAGS=1 SIZE=18568717 GEN=7 REALGEN=8 FNAME=UnrealI.u
-DevNet: PendingLevel received: USES GUID=5C0AABC211D282F44544289700005453 PKG=Crypt2 FLAGS=1 SIZE=7370018 GEN=1 FNAME=Crypt2.utx
-DevNet: PendingLevel received: USES GUID=1E90ACAF11D1ED664544279700005453 PKG=GenFX FLAGS=1 SIZE=2189510 GEN=1 FNAME=GenFX.utx
-DevNet: PendingLevel received: USES GUID=F717F4C611D38B66C00081B50A1E604F PKG=XbpFX FLAGS=1 SIZE=2431423 GEN=1 FNAME=XbpFX.utx
-DevNet: PendingLevel received: USES GUID=1E90ACCF11D1ED664544279700005453 PKG=XFX FLAGS=1 SIZE=198416 GEN=1 FNAME=XFX.utx
-DevNet: PendingLevel received: USES GUID=C47BBD4011D38CFBC00084B50A1E604F PKG=DecayedS FLAGS=1 SIZE=11846698 GEN=1 FNAME=DecayedS.utx
-DevNet: PendingLevel received: USES GUID=1E90ACC111D1ED664544279700005453 PKG=Palettes FLAGS=1 SIZE=421024 GEN=1 FNAME=Palettes.utx
-DevNet: PendingLevel received: USES GUID=8B3567A111D325CEE0005D95BE341081 PKG=Lian-X FLAGS=1 SIZE=670538 GEN=1 FNAME=Lian-X.utx
-DevNet: PendingLevel received: USES GUID=5CA303AC11D38D0CC00084B50A1E604F PKG=ShaneChurch FLAGS=1 SIZE=5064523 GEN=1 FNAME=ShaneChurch.utx
-DevNet: PendingLevel received: USES GUID=C073770E11D2D1A4E000278383161081 PKG=Lock FLAGS=1 SIZE=202 GEN=1 REALGEN=2 FNAME=Lock.umx
-DevNet: PendingLevel received: USES GUID=93CC0A8111D3888FE0006295BE341081 PKG=SoldierSkins FLAGS=1 SIZE=7184269 GEN=1 FNAME=Soldierskins.utx
-DevNet: PendingLevel received: USES GUID=E96BC96311D31D2F4F006B8CDE9A0349 PKG=CommandoSkins FLAGS=1 SIZE=4318050 GEN=1 FNAME=commandoskins.utx
-DevNet: PendingLevel received: USES GUID=B7B49CA611D38BCDE0006395BE341081 PKG=FCommandoSkins FLAGS=1 SIZE=5093279 GEN=1 FNAME=FCommandoSkins.utx
-DevNet: PendingLevel received: USES GUID=D4F6ABE111D385CAE0006295BE341081 PKG=SGirlSkins FLAGS=1 SIZE=7226959 GEN=1 FNAME=SGirlSkins.utx
-DevNet: PendingLevel received: USES GUID=24E5A72411D321104F006B8CDE9A0349 PKG=BossSkins FLAGS=1 SIZE=1867811 GEN=1 FNAME=BossSkins.utx
-DevNet: PendingLevel received: USES GUID=BB9DBADC42FFE9591FD4A7BFCC797F20 PKG=NDgrap49c FLAGS=1 SIZE=54512 GEN=1 FNAME=NDgrap49c.u
-DevNet: PendingLevel received: USES GUID=5852B1D7496A80250DBAC9B5A8640AEE PKG=NDdj4 FLAGS=1 SIZE=7826 GEN=1 FNAME=NDdj4.u
-DevNet: PendingLevel received: USES GUID=DA700DCF44F2CB41871334BC5503D1E5 PKG=NDgencli5 FLAGS=1 SIZE=13523 GEN=1 FNAME=NDgencli5.u
-DevNet: PendingLevel received: USES GUID=8BC3CA404E170BCC8A824EB424B6CFD1 PKG=FlagAnnouncementsV2 FLAGS=1 SIZE=20675 GEN=1 FNAME=FlagAnnouncementsV2.u
-DevNet: PendingLevel received: USES GUID=EE94E4EC48CEBBC2672A4FA932002575 PKG=DefaultAnnouncements FLAGS=1 SIZE=735505 GEN=1 FNAME=DefaultAnnouncements.uax
-DevNet: PendingLevel received: USES GUID=C870D99042CA2BD7D5FA89B644E0E495 PKG=ZeroPingPlus103 FLAGS=1 SIZE=56048 GEN=1 FNAME=ZeroPingPlus103.u
-DevNet: PendingLevel received: USES GUID=0C2888B842F4D9E7B0D1649208FB9AC5 PKG=cgzpp22a FLAGS=1 SIZE=9261 GEN=1 FNAME=cgzpp22a.u
-DevNet: PendingLevel received: USES GUID=55D71E0F4F007F85742844AD71F02F4C PKG=ComboMsgsCS FLAGS=1 SIZE=675529 GEN=1 FNAME=ComboMsgsCS.u
-DevNet: PendingLevel received: USES GUID=4AD9D1314D18C09364ADC6B1088D2021 PKG=NoSelfDamage FLAGS=1 SIZE=4272 GEN=1 FNAME=NoSelfDamage.u
-DevNet: PendingLevel received: USES GUID=B05DA2F54AFA7F5253BEAB9E3324FEA8 PKG=KickIdlePlayers2_sg1 FLAGS=1 SIZE=14473 GEN=1 FNAME=KickIdlePlayers2_sg1.u
-DevNet: PendingLevel received: USES GUID=05CA4616433E260B8C8958B7B2F3FED5 PKG=PlyrCmdsV01a FLAGS=1 SIZE=11977 GEN=1 FNAME=PlyrCmdsV01a.u
-DevNet: PendingLevel received: USES GUID=DC1B324D41E3BBED5849DF8FCD5042CD PKG=CountryFlags3 FLAGS=1 SIZE=365270 GEN=1 FNAME=CountryFlags3.utx
-DevNet: PendingLevel received: USES GUID=49BAB20143A54ECC4CA25A824F65C4FF PKG=ATBHS7fixSG1 FLAGS=1 SIZE=65719 GEN=1 FNAME=ATBHS7fixSG1.u
-DevNet: PendingLevel received: USES GUID=A75B0AB14EE66E290FA5BFB54848FDD6 PKG=2k4Sounds24 FLAGS=1 SIZE=42704 GEN=1 FNAME=2k4Sounds24.u
-DevNet: PendingLevel received: USES GUID=EBD3C2F441C1F4FB45020488A415E5E8 PKG=SoundsSexy FLAGS=1 SIZE=3150009 GEN=1 FNAME=SoundsSexy.uax
-DevNet: PendingLevel received: USES GUID=DE005C894BD83E72ED3BB3BBCD5E76EF PKG=MapVoteLAv2_Big21a FLAGS=1 SIZE=791888 GEN=1 FNAME=MapVoteLAv2_Big21a.u
-DevNet: PendingLevel received: USES GUID=C787673547891BA0976B11A6B4417FB9 PKG=SmartCTF_4E-ESU2 FLAGS=1 SIZE=468872 GEN=1 FNAME=SmartCTF_4E-ESU2.u
-DevNet: PendingLevel received: USES GUID=2CA90999407DCD09BE922BB704CA44BB PKG=NPLoader_v19b FLAGS=1 SIZE=102685 GEN=1 FNAME=NPLoader_v19b.u
-DevNet: PendingLevel received: USES GUID=7D29D4484E94ADDF29537094BF68750E PKG=NPLoaderLLU_v18b FLAGS=1 SIZE=2441 GEN=1 FNAME=NPLoaderLLU_v18b.u
-DevNet: PendingLevel received: USES GUID=BFD5AAE94B816DCB937781970CCB3E8C PKG=NPLoaderLLD_v18b FLAGS=1 SIZE=100916 GEN=1 FNAME=NPLoaderLLD_v18b.u
-DevNet: PendingLevel received: USES GUID=5B3350A84DFC2DA24D77C994C798812B PKG=NPLoaderLLS_v18b FLAGS=1 SIZE=47721 GEN=1 FNAME=NPLoaderLLS_v18b.u
-DevNet: PendingLevel received: USES GUID=19B435334607665EC1A989AA2290323E PKG=NPLoaderLLDL_v18b FLAGS=1 SIZE=60127 GEN=1 FNAME=NPLoaderLLDL_v18b.u
-DevNet: PendingLevel received: USES GUID=35C05C9646423D203BF91FA96E925EAF PKG=ACEv12e_Cdll FLAGS=1 SIZE=1947208 GEN=1 FNAME=ACEv12e_Cdll.u
-DevNet: PendingLevel received: USES GUID=5092DE0F45DF278C636FDFBDEFD52E39 PKG=IACEv12 FLAGS=1 SIZE=136556 GEN=1 FNAME=IACEv12.u
-DevNet: PendingLevel received: USES GUID=AF2F1363424E11D8EC6B31AD526D46DE PKG=ACEv12e_C FLAGS=1 SIZE=28041 GEN=1 FNAME=ACEv12e_C.u
-DevNet: PendingLevel received: USES GUID=9DD2A904438C8CA729588EBFBA3F8501 PKG=UTSAccuBeta4_2 FLAGS=1 SIZE=38769 GEN=1 FNAME=UTSAccuBeta4_2.u
-DevNet: PendingLevel received: USES GUID=FE8DF17643938C08185847AF84DDA957 PKG=Revenge2 FLAGS=1 SIZE=39330 GEN=1 FNAME=Revenge2.u
-DevNet: PendingLevel received: USES GUID=39C5973346183ED146E52199A9782CDC PKG=ESU-Flags-Splash FLAGS=1 SIZE=295733 GEN=1 FNAME=ESU-Flags-Splash.utx
-DevNet: PendingLevel received: USES GUID=92FA0C5011DABC32400087C6D96D0995 PKG=LogoSplashV3 FLAGS=1 SIZE=28508 GEN=1 FNAME=LogoSplashV3.u
-DevNet: PendingLevel received: USES GUID=91EFBABB430464F36B7F3DBC2AC15682 PKG=SmartBan02 FLAGS=1 SIZE=37492 GEN=1 FNAME=SmartBan02.u
-DevNet: PendingLevel received: USES GUID=FB69581746975F7A0B49729A914CCF39 PKG=WinClient FLAGS=1 SIZE=674 GEN=1 FNAME=WinClient.u
-DevNet: PendingLevel received: DLMGR CLASS=IpDrv.HTTPDownload PARAMS=http://23.92.16.218/CTF/ COMPRESSION=1
-DevNet: PendingLevel received: DLMGR CLASS=Engine.ChannelDownload PARAMS=Enabled COMPRESSION=0
-DevNet: PendingLevel received: WELCOME LEVEL=CTF-420-OutForBlood LONE=0
-DevNet: Welcomed by server: LEVEL=CTF-420-OutForBlood LONE=0
-Log: Decoded IP 23.92.16.218 (23.92.16.218)
-DevNet: Receiving package 'CTF-420-OutForBlood'
-ScriptLog: Timed out getting player replies.  Attempt 1
-ScriptLog: Timed out getting player replies.  Attempt 1
-ScriptLog: Timed out getting player replies.  Attempt 1
-ScriptLog: Timed out getting player replies.  Giving Up
-ScriptLog: Ping Timeout from 67.182.235.39.  Attempt 1
-ScriptLog: Timed out getting player replies.  Attempt 1
-ScriptLog: Ping Timeout from 24.11.96.209.  Attempt 1
-ScriptLog: Timed out getting player replies.  Attempt 1
-ScriptLog: Timed out getting player replies.  Attempt 1
-ScriptLog: Timed out getting player replies.  Attempt 1
-ScriptLog: Timed out getting player replies.  Attempt 1
-ScriptLog: Timed out getting player replies.  Giving Up
-ScriptLog: Timed out getting player replies.  Attempt 1
-ScriptLog: Ping Timeout from 122.199.1.244.  Attempt 1
-Warning: stage 0: 0.012905 secs
-Warning: stage 1: 0.007244 secs
-Warning: stage 2: 0.005243 secs
-Warning: stage 3: 0.002797 secs
-Warning: Total: 0.028189 secs
-Log: Decoded IP 23.92.16.218 (23.92.16.218)
-DevNet: Receiving package 'NDgrap49c'
-ScriptLog: Timed out getting player replies.  Giving Up
-ScriptLog: Timed out getting player replies.  Giving Up
-ScriptLog: Timed out getting player replies.  Giving Up
-Warning: stage 0: 0.001819 secs
-Warning: stage 1: 0.001366 secs
-Warning: stage 2: 0.000839 secs
-Warning: stage 3: 0.000579 secs
-Warning: Total: 0.004603 secs
-Log: Decoded IP 23.92.16.218 (23.92.16.218)
-DevNet: Receiving package 'NDdj4'
-ScriptLog: Ping Timeout from 67.182.235.39 Giving Up
-ScriptLog: Timed out getting player replies.  Giving Up
-ScriptLog: Timed out getting player replies.  Giving Up
-ScriptLog: Ping Timeout from 24.11.96.209 Giving Up
-Warning: stage 0: 0.000329 secs
-Warning: stage 1: 0.000056 secs
-Warning: stage 2: 0.000046 secs
-Warning: stage 3: 0.000077 secs
-Warning: Total: 0.000509 secs
-Log: Decoded IP 23.92.16.218 (23.92.16.218)
-DevNet: Receiving package 'NDgencli5'
-ScriptLog: Ping Timeout from 122.199.1.244 Giving Up
-Warning: stage 0: 0.000580 secs
-Warning: stage 1: 0.000274 secs
-Warning: stage 2: 0.000197 secs
-Warning: stage 3: 0.000296 secs
-Warning: Total: 0.001347 secs
-Log: Decoded IP 23.92.16.218 (23.92.16.218)
-DevNet: Receiving package 'FlagAnnouncementsV2'
-Warning: stage 0: 0.000194 secs
-Warning: stage 1: 0.000103 secs
-Warning: stage 2: 0.000090 secs
-Warning: stage 3: 0.000131 secs
-Warning: Total: 0.000518 secs
-Log: Decoded IP 23.92.16.218 (23.92.16.218)
-DevNet: Receiving package 'DefaultAnnouncements'
-Warning: stage 0: 0.013431 secs
-Warning: stage 1: 0.014386 secs
-Warning: stage 2: 0.004075 secs
-Warning: stage 3: 0.001474 secs
-Warning: Total: 0.033366 secs
-Log: Decoded IP 23.92.16.218 (23.92.16.218)
-DevNet: Receiving package 'ZeroPingPlus103'
-Warning: stage 0: 0.000982 secs
-Warning: stage 1: 0.000366 secs
-Warning: stage 2: 0.000261 secs
-Warning: stage 3: 0.000207 secs
-Warning: Total: 0.001817 secs
-Log: Decoded IP 23.92.16.218 (23.92.16.218)
-DevNet: Receiving package 'cgzpp22a'
-Warning: stage 0: 0.000148 secs
-Warning: stage 1: 0.000078 secs
-Warning: stage 2: 0.000052 secs
-Warning: stage 3: 0.000087 secs
-Warning: Total: 0.000364 secs
-Log: Decoded IP 23.92.16.218 (23.92.16.218)
-DevNet: Receiving package 'ComboMsgsCS'
-Warning: stage 0: 0.016031 secs
-Warning: stage 1: 0.009031 secs
-Warning: stage 2: 0.003313 secs
-Warning: stage 3: 0.001275 secs
-Warning: Total: 0.029649 secs
-Log: Decoded IP 23.92.16.218 (23.92.16.218)
-DevNet: Receiving package 'NoSelfDamage'
-Warning: stage 0: 0.000179 secs
-Warning: stage 1: 0.000075 secs
-Warning: stage 2: 0.000055 secs
-Warning: stage 3: 0.000093 secs
-Warning: Total: 0.000401 secs
-Log: Decoded IP 23.92.16.218 (23.92.16.218)
-DevNet: Receiving package 'KickIdlePlayers2_sg1'
-Warning: stage 0: 0.000340 secs
-Warning: stage 1: 0.000177 secs
-Warning: stage 2: 0.000146 secs
-Warning: stage 3: 0.000099 secs
-Warning: Total: 0.000761 secs
-Log: Decoded IP 23.92.16.218 (23.92.16.218)
-DevNet: Receiving package 'PlyrCmdsV01a'
-Warning: stage 0: 0.000184 secs
-Warning: stage 1: 0.000081 secs
-Warning: stage 2: 0.000068 secs
-Warning: stage 3: 0.000099 secs
-Warning: Total: 0.000432 secs
-Log: Decoded IP 23.92.16.218 (23.92.16.218)
-DevNet: Receiving package 'CountryFlags3'
-Warning: stage 0: 0.005061 secs
-Warning: stage 1: 0.004055 secs
-Warning: stage 2: 0.002131 secs
-Warning: stage 3: 0.001261 secs
-Warning: Total: 0.012508 secs
-Log: Decoded IP 23.92.16.218 (23.92.16.218)
-DevNet: Receiving package 'ATBHS7fixSG1'
-Warning: stage 0: 0.000904 secs
-Warning: stage 1: 0.000315 secs
-Warning: stage 2: 0.000292 secs
-Warning: stage 3: 0.000219 secs
-Warning: Total: 0.001731 secs
-Log: Decoded IP 23.92.16.218 (23.92.16.218)
-DevNet: Receiving package '2k4Sounds24'
-Warning: stage 0: 0.000974 secs
-Warning: stage 1: 0.000212 secs
-Warning: stage 2: 0.000198 secs
-Warning: stage 3: 0.000213 secs
-Warning: Total: 0.001597 secs
-Log: Decoded IP 23.92.16.218 (23.92.16.218)
-DevNet: Receiving package 'SoundsSexy'
-Warning: stage 0: 0.039512 secs
-Warning: stage 1: 0.048130 secs
-Warning: stage 2: 0.020569 secs
-Warning: stage 3: 0.006335 secs
-Warning: Total: 0.114545 secs
-Log: Decoded IP 23.92.16.218 (23.92.16.218)
-DevNet: Receiving package 'MapVoteLAv2_Big21a'
-Warning: stage 0: 0.005647 secs
-Warning: stage 1: 0.006492 secs
-Warning: stage 2: 0.005130 secs
-Warning: stage 3: 0.001879 secs
-Warning: Total: 0.019148 secs
-Log: Decoded IP 23.92.16.218 (23.92.16.218)
-DevNet: Receiving package 'SmartCTF_4E-ESU2'
-Warning: stage 0: 0.014286 secs
-Warning: stage 1: 0.006779 secs
-Warning: stage 2: 0.002245 secs
-Warning: stage 3: 0.001008 secs
-Warning: Total: 0.024317 secs
-Log: Decoded IP 23.92.16.218 (23.92.16.218)
-DevNet: Receiving package 'NPLoader_v19b'
-Warning: stage 0: 0.000731 secs
-Warning: stage 1: 0.000570 secs
-Warning: stage 2: 0.000515 secs
-Warning: stage 3: 0.000330 secs
-Warning: Total: 0.002145 secs
-Log: Decoded IP 23.92.16.218 (23.92.16.218)
-DevNet: Receiving package 'NPLoaderLLU_v18b'
-Warning: stage 0: 0.000087 secs
-Warning: stage 1: 0.000024 secs
-Warning: stage 2: 0.000030 secs
-Warning: stage 3: 0.000011 secs
-Warning: Total: 0.000152 secs
-Log: Decoded IP 23.92.16.218 (23.92.16.218)
-DevNet: Receiving package 'NPLoaderLLD_v18b'
-Warning: stage 0: 0.001084 secs
-Warning: stage 1: 0.000907 secs
-Warning: stage 2: 0.000468 secs
-Warning: stage 3: 0.000329 secs
-Warning: Total: 0.002788 secs
-Log: Decoded IP 23.92.16.218 (23.92.16.218)
-DevNet: Receiving package 'NPLoaderLLS_v18b'
-Warning: stage 0: 0.001315 secs
-Warning: stage 1: 0.001108 secs
-Warning: stage 2: 0.000687 secs
-Warning: stage 3: 0.000409 secs
-Warning: Total: 0.003520 secs
-Log: Decoded IP 23.92.16.218 (23.92.16.218)
-DevNet: Receiving package 'NPLoaderLLDL_v18b'
-Warning: stage 0: 0.000460 secs
-Warning: stage 1: 0.000349 secs
-Warning: stage 2: 0.000231 secs
-Warning: stage 3: 0.000321 secs
-Warning: Total: 0.001360 secs
-Log: Decoded IP 23.92.16.218 (23.92.16.218)
-DevNet: Receiving package 'ACEv12e_Cdll'
-Warning: stage 0: 0.027054 secs
-Warning: stage 1: 0.017007 secs
-Warning: stage 2: 0.009974 secs
-Warning: stage 3: 0.005229 secs
-Warning: Total: 0.059263 secs
-Log: Decoded IP 23.92.16.218 (23.92.16.218)
-DevNet: Receiving package 'IACEv12'
-Warning: stage 0: 0.002001 secs
-Warning: stage 1: 0.001830 secs
-Warning: stage 2: 0.001037 secs
-Warning: stage 3: 0.000806 secs
-Warning: Total: 0.005673 secs
-Log: Decoded IP 23.92.16.218 (23.92.16.218)
-DevNet: Receiving package 'ACEv12e_C'
-Warning: stage 0: 0.000298 secs
-Warning: stage 1: 0.000194 secs
-Warning: stage 2: 0.000137 secs
-Warning: stage 3: 0.000141 secs
-Warning: Total: 0.000769 secs
-Log: Decoded IP 23.92.16.218 (23.92.16.218)
-DevNet: Receiving package 'UTSAccuBeta4_2'
-Warning: stage 0: 0.000639 secs
-Warning: stage 1: 0.000377 secs
-Warning: stage 2: 0.000165 secs
-Warning: stage 3: 0.000177 secs
-Warning: Total: 0.001357 secs
-Log: Decoded IP 23.92.16.218 (23.92.16.218)
-DevNet: Receiving package 'Revenge2'
-Warning: stage 0: 0.000645 secs
-Warning: stage 1: 0.000369 secs
-Warning: stage 2: 0.000165 secs
-Warning: stage 3: 0.000192 secs
-Warning: Total: 0.001371 secs
-Log: Decoded IP 23.92.16.218 (23.92.16.218)
-DevNet: Receiving package 'ESU-Flags-Splash'
-Warning: stage 0: 0.007586 secs
-Warning: stage 1: 0.007062 secs
-Warning: stage 2: 0.003130 secs
-Warning: stage 3: 0.001480 secs
-Warning: Total: 0.019258 secs
-Log: Decoded IP 23.92.16.218 (23.92.16.218)
-DevNet: Receiving package 'LogoSplashV3'
-Warning: stage 0: 0.000268 secs
-Warning: stage 1: 0.000158 secs
-Warning: stage 2: 0.000134 secs
-Warning: stage 3: 0.001110 secs
-Warning: Total: 0.001670 secs
-Log: Decoded IP 23.92.16.218 (23.92.16.218)
-DevNet: Receiving package 'SmartBan02'
-Warning: stage 0: 0.000395 secs
-Warning: stage 1: 0.000275 secs
-Warning: stage 2: 0.000164 secs
-Warning: stage 3: 0.000166 secs
-Warning: Total: 0.001000 secs
-Log: Decoded IP 23.92.16.218 (23.92.16.218)
-DevNet: Receiving package 'WinClient'
-DevNet: Receiving package 'WinClient'
-Log: LoadMap: 139.162.235.20/CTF-420-OutForBlood?Name=adrak0?Class=Botpack.TFemale1?team=255?skin=FCommandoSkins.cmdo?Face=FCommandoSkins.ivana?Voice=BotPack.VoiceFemaleOne
+Log: Browse: CTF-[R3P]-W007-II-[AMC].unr?Game=BotPack.CTFGame?Mutator=?Name=adrak0?Class=Botpack.TFemale1?team=1?skin=FCommandoSkins.cmdo?Face=FCommandoSkins.ivana?Voice=BotPack.VoiceFemaleOne
+Log: LoadMap: CTF-[R3P]-W007-II-[AMC].unr?Game=BotPack.CTFGame?Mutator=?Name=adrak0?Class=Botpack.TFemale1?team=1?skin=FCommandoSkins.cmdo?Face=FCommandoSkins.ivana?Voice=BotPack.VoiceFemaleOne
 DevAudio: Galaxy SetViewport: WindowsViewport0
 Log: UDEMO: Successfully got list of demos
 DevGraphics: XOpenGL: Flush
@@ -668,113 +209,46 @@ Log: Collecting garbage
 Log: Purging garbage
 Log: Unloading: Package CityIntro
 Log: Unloading: Package city
-Log: Unloading: Package ArenaTex
-Log: Unloading: Package NaliCast
 Log: Unloading: Package RainFX
+Log: Unloading: Package GenIn
 Log: Unloading: Package NaliFX
 Log: Unloading: Package ShaneSky
-Log: Unloading: Package AmbModern
-Log: Unloading: Package AmbAncient
 Log: Unloading: Package openingwave
 Log: Unloading: Package Uttitle
-Log: Unloading: Package AmbOutside
+Log: Unloading: Package FCommandoSkins
 Log: Unloading: Package MultiMesh
 Log: Unloading: Package EpicCustomModels
-Log: Garbage: objects: 42293->40485; refs: 471871
-Log: Bringing Level CTF-420-OutForBlood.MyLevel up for play (41)...
+Log: Unloading: Package DM-Morpheus
+Log: Unloading: Package FractalFX
+Log: Unloading: Package Slums
+Log: Unloading: Package UTtech2
+Log: Unloading: Package UTtech1
+Log: Unloading: Package UTtech3
+Log: Unloading: Package SaveMe
+Log: Unloading: Package AS-Frigate
+Log: Unloading: Package Starship
+Log: Unloading: Package GenEarth
+Log: Unloading: Package DoorsMod
+Log: Unloading: Package Mission
+Log: Unloading: Package DOM-Cinder
+Log: Unloading: Package Metalmys
+Log: Unloading: Package hubeffects
+Log: Unloading: Package Run
+Log: Unloading: Package utcrypt
+Log: Garbage: objects: 30503->29054; refs: 502759
+Log: Game class is 'CTFGame'
+Log: Bringing Level CTF-[R3P]-W007-II-[AMC].MyLevel up for play (0)...
+ScriptLog: InitGame: ?Game=BotPack.CTFGame?Mutator=?Name=adrak0?Class=Botpack.TFemale1?team=1?skin=FCommandoSkins.cmdo?Face=FCommandoSkins.ivana?Voice=BotPack.VoiceFemaleOne
+ScriptLog: Base Mutator is CTF-[R3P]-W007-II-[AMC].DMMutator0
+ScriptLog: Initiating local logging...
 Log: Spawning new actor for Viewport WindowsViewport0
-ScriptLog: Team 255
+ScriptLog: Team 1
 ScriptLog: Login: adrak0
-Log: Possessed PlayerPawn: TFemale1 Entry.TFemale10
-Init: Initialized moving brush tracker for Level CTF-420-OutForBlood.MyLevel
+Log: Possessed PlayerPawn: TFemale1 CTF-[R3P]-W007-II-[AMC].TFemale10
+Init: Initialized moving brush tracker for Level CTF-[R3P]-W007-II-[AMC].MyLevel
 DevAudio: Galaxy SetViewport: WindowsViewport0
 DevGraphics: XOpenGL: Flush
 Init: XOpenGL: Setting VSync: Adaptive
-Log: Possessed PlayerPawn: TFemale1 CTF-420-OutForBlood.TFemale10
-ScriptLog: Getting FCommandoSkins.goth1T_1, FCommandoSkins.goth2T_1, None, FCommandoSkins.goth4Freylis
-ScriptLog: Getting SGirlSkins.Garf1T_1, SGirlSkins.Garf2T_1, SGirlSkins.Garf3, SGirlSkins.Garf4Risa
-ScriptLog: Getting FCommandoSkins.goth1T_0, FCommandoSkins.goth2T_0, None, FCommandoSkins.goth4Cryss
-ScriptLog: Getting SoldierSkins.sldr1T_0, SoldierSkins.sldr2T_0, SoldierSkins.sldr3, SoldierSkins.Sldr4Rankin
-ScriptLog: Getting FCommandoSkins.goth1T_1, FCommandoSkins.goth2T_1, None, FCommandoSkins.goth4Visse
-ScriptLog: Getting SoldierSkins.Blkt1T_1, SoldierSkins.Blkt2T_1, SoldierSkins.Blkt3, SoldierSkins.Blkt4
-ScriptLog: Getting SoldierSkins.RawS1T_0, SoldierSkins.RawS2T_0, SoldierSkins.RawS3, SoldierSkins.RawS4Bruce
-ScriptLog: Getting SoldierSkins.sldr1T_0, SoldierSkins.sldr2T_0, SoldierSkins.sldr3, SoldierSkins.Sldr4Rankin
-ScriptWarning: AutoRecorder Transient.AutoRecorder0 (Function udemo.AutoRecorder.NotifyLevelChange:0043) Accessed None 'PlayerReplicationInfo'
-ScriptWarning: AutoRecorder Transient.AutoRecorder0 (Function udemo.AutoRecorder.NotifyLevelChange:004B) Attempt to assign variable through None
-ScriptWarning: ChallengeCTFHUD CTF-420-OutForBlood.ChallengeCTFHUD0 (Function Botpack.ChallengeCTFHUD.Timer:0033) Accessed None 'PlayerReplicationInfo'
-Log: FactoryCreateText: TextBuffer with TextBufferFactory (0 1 NPLoaderLL_v18b.u)
-Warning: Can't find file NPLoaderLL_v18b.u for import.
-ScriptLog: [NPLoaderv19b] [File] NPLoaderLL_v18b.dll [Installed] No [Loaded] No
-ScriptLog: [NPLoaderv19b] Installing NPLoaderLL
-Log: Bound to Editor.dll
-Warning: Loading package ../Cache/7D29D4484E94ADDF29537094BF68750E.uxx...
-Warning: Exported Music 7D29D4484E94ADDF29537094BF68750E.NPLoaderLL_v18b to ..\System\NPLoaderLL_v18b.u
-Warning: Loading package ../Cache/BFD5AAE94B816DCB937781970CCB3E8C.uxx...
-Warning: Exported Music BFD5AAE94B816DCB937781970CCB3E8C.NPLoaderLL_v18b to ..\System\NPLoaderLL_v18b.dll
-Warning: Loading package ../Cache/5B3350A84DFC2DA24D77C994C798812B.uxx...
-Warning: Exported Music 5B3350A84DFC2DA24D77C994C798812B.NPLoaderLL_v18b to ..\System\NPLoaderLL_v18b.so
-Warning: Loading package ../Cache/19B435334607665EC1A989AA2290323E.uxx...
-Warning: Exported Music 19B435334607665EC1A989AA2290323E.NPLoaderLL_v18b to ..\System\NPLoaderLL_v18b.dylib
-Log: FactoryCreateText: TextBuffer with TextBufferFactory (0 1 NPLoaderLL_v18b.u)
-Log: Execing NPLoaderLL_v18b.u
-Log: FactoryCreateText: TextBuffer with TextBufferFactory (0 1 NPLoaderLL_v18b.dll)
-Log: Execing NPLoaderLL_v18b.dll
-Log: Bound to NPLoaderLL_v18b.dll
-ScriptLog: [NPLoaderv19b] [File] NPLoaderLL_v18b.dll [Installed] Yes [Loaded] Yes
-ScriptLog: [NPLoaderv19b] Installed NPLoaderLL
-Log: FileSize of file ACEv12e_C.dll: -1 bytes
-Log: FileSize of file ACEv12e_C.dll: -1 bytes
-ScriptLog: [NPLoaderv19b] [File] ACEv12e_C.dll [Installed] No [Loaded] No
-ScriptLog: [NPLoaderv19b] NPLoader needs to install new mods. You will be automatically disconnected in 60 seconds.
-ScriptWarning: ChallengeCTFHUD CTF-420-OutForBlood.ChallengeCTFHUD0 (Function Botpack.ChallengeCTFHUD.Timer:0033) Accessed None 'PlayerReplicationInfo'
-ScriptWarning: ChallengeCTFHUD CTF-420-OutForBlood.ChallengeCTFHUD0 (Function Botpack.ChallengeCTFHUD.Timer:0033) Accessed None 'PlayerReplicationInfo'
-ScriptWarning: ChallengeCTFHUD CTF-420-OutForBlood.ChallengeCTFHUD0 (Function Botpack.ChallengeCTFHUD.Timer:0033) Accessed None 'PlayerReplicationInfo'
-ScriptWarning: ChallengeCTFHUD CTF-420-OutForBlood.ChallengeCTFHUD0 (Function Botpack.ChallengeCTFHUD.Timer:0033) Accessed None 'PlayerReplicationInfo'
-ScriptWarning: ChallengeCTFHUD CTF-420-OutForBlood.ChallengeCTFHUD0 (Function Botpack.ChallengeCTFHUD.Timer:0033) Accessed None 'PlayerReplicationInfo'
-ScriptWarning: ChallengeCTFHUD CTF-420-OutForBlood.ChallengeCTFHUD0 (Function Botpack.ChallengeCTFHUD.Timer:0033) Accessed None 'PlayerReplicationInfo'
-ScriptWarning: ChallengeCTFHUD CTF-420-OutForBlood.ChallengeCTFHUD0 (Function Botpack.ChallengeCTFHUD.Timer:0033) Accessed None 'PlayerReplicationInfo'
-ScriptWarning: ChallengeCTFHUD CTF-420-OutForBlood.ChallengeCTFHUD0 (Function Botpack.ChallengeCTFHUD.Timer:0033) Accessed None 'PlayerReplicationInfo'
-ScriptWarning: ChallengeCTFHUD CTF-420-OutForBlood.ChallengeCTFHUD0 (Function Botpack.ChallengeCTFHUD.Timer:0033) Accessed None 'PlayerReplicationInfo'
-ScriptWarning: ChallengeCTFHUD CTF-420-OutForBlood.ChallengeCTFHUD0 (Function Botpack.ChallengeCTFHUD.Timer:0033) Accessed None 'PlayerReplicationInfo'
-ScriptWarning: ChallengeCTFHUD CTF-420-OutForBlood.ChallengeCTFHUD0 (Function Botpack.ChallengeCTFHUD.Timer:0033) Accessed None 'PlayerReplicationInfo'
-ScriptWarning: UTConsole Transient.UTConsole0 (Function UWindow.WindowConsole.Message:0077) Accessed None 'MsgPlayer'
-ScriptWarning: ChallengeCTFHUD CTF-420-OutForBlood.ChallengeCTFHUD0 (Function Botpack.ChallengeTeamHUD.Message:009B) Accessed None 'PRI'
-ScriptWarning: ChallengeCTFHUD CTF-420-OutForBlood.ChallengeCTFHUD0 (Function Botpack.ChallengeTeamHUD.Message:00B1) Accessed None 'PRI'
-ScriptWarning: ChallengeCTFHUD CTF-420-OutForBlood.ChallengeCTFHUD0 (Function Botpack.ChallengeCTFHUD.Timer:0033) Accessed None 'PlayerReplicationInfo'
-ScriptWarning: ChallengeCTFHUD CTF-420-OutForBlood.ChallengeCTFHUD0 (Function Botpack.ChallengeCTFHUD.Timer:0033) Accessed None 'PlayerReplicationInfo'
-ScriptWarning: ChallengeCTFHUD CTF-420-OutForBlood.ChallengeCTFHUD0 (Function Botpack.ChallengeCTFHUD.Timer:0033) Accessed None 'PlayerReplicationInfo'
-ScriptWarning: UTConsole Transient.UTConsole0 (Function UWindow.WindowConsole.Message:0077) Accessed None 'MsgPlayer'
-ScriptWarning: ChallengeCTFHUD CTF-420-OutForBlood.ChallengeCTFHUD0 (Function Botpack.ChallengeTeamHUD.Message:009B) Accessed None 'PRI'
-ScriptWarning: ChallengeCTFHUD CTF-420-OutForBlood.ChallengeCTFHUD0 (Function Botpack.ChallengeTeamHUD.Message:00B1) Accessed None 'PRI'
-ScriptWarning: ChallengeCTFHUD CTF-420-OutForBlood.ChallengeCTFHUD0 (Function Botpack.ChallengeCTFHUD.Timer:0033) Accessed None 'PlayerReplicationInfo'
-ScriptWarning: NPLUIClientWindow Transient.NPLUIClientWindow0 (Function NPLoader_v19b.NPLUIClientWindow.Notify:0037) Accessed None 'C'
-ScriptWarning: ChallengeCTFHUD CTF-420-OutForBlood.ChallengeCTFHUD0 (Function Botpack.ChallengeCTFHUD.Timer:0033) Accessed None 'PlayerReplicationInfo'
-ScriptWarning: UTConsole Transient.UTConsole0 (Function UWindow.WindowConsole.Message:0077) Accessed None 'MsgPlayer'
-ScriptWarning: ChallengeCTFHUD CTF-420-OutForBlood.ChallengeCTFHUD0 (Function Botpack.ChallengeTeamHUD.Message:009B) Accessed None 'PRI'
-ScriptWarning: ChallengeCTFHUD CTF-420-OutForBlood.ChallengeCTFHUD0 (Function Botpack.ChallengeTeamHUD.Message:00B1) Accessed None 'PRI'
-ScriptWarning: ChallengeCTFHUD CTF-420-OutForBlood.ChallengeCTFHUD0 (Function Botpack.ChallengeCTFHUD.Timer:0033) Accessed None 'PlayerReplicationInfo'
-ScriptWarning: ChallengeCTFHUD CTF-420-OutForBlood.ChallengeCTFHUD0 (Function Botpack.ChallengeCTFHUD.Timer:0033) Accessed None 'PlayerReplicationInfo'
-ScriptWarning: ChallengeCTFHUD CTF-420-OutForBlood.ChallengeCTFHUD0 (Function Botpack.ChallengeCTFHUD.Timer:0033) Accessed None 'PlayerReplicationInfo'
-ScriptWarning: ChallengeCTFHUD CTF-420-OutForBlood.ChallengeCTFHUD0 (Function Botpack.ChallengeCTFHUD.Timer:0033) Accessed None 'PlayerReplicationInfo'
-ScriptWarning: ChallengeCTFHUD CTF-420-OutForBlood.ChallengeCTFHUD0 (Function Botpack.ChallengeCTFHUD.Timer:0033) Accessed None 'PlayerReplicationInfo'
-ScriptWarning: ChallengeCTFHUD CTF-420-OutForBlood.ChallengeCTFHUD0 (Function Botpack.ChallengeCTFHUD.Timer:0033) Accessed None 'PlayerReplicationInfo'
-ScriptWarning: ChallengeCTFHUD CTF-420-OutForBlood.ChallengeCTFHUD0 (Function Botpack.ChallengeCTFHUD.Timer:0033) Accessed None 'PlayerReplicationInfo'
-ScriptWarning: ChallengeCTFHUD CTF-420-OutForBlood.ChallengeCTFHUD0 (Function Botpack.ChallengeCTFHUD.Timer:0033) Accessed None 'PlayerReplicationInfo'
-ScriptWarning: ChallengeCTFHUD CTF-420-OutForBlood.ChallengeCTFHUD0 (Function Botpack.ChallengeCTFHUD.Timer:0033) Accessed None 'PlayerReplicationInfo'
-ScriptWarning: ChallengeCTFHUD CTF-420-OutForBlood.ChallengeCTFHUD0 (Function Botpack.ChallengeCTFHUD.Timer:0033) Accessed None 'PlayerReplicationInfo'
-ScriptLog: [NPLoaderv19b] ERROR: License not accepted.
-ScriptLog: [NPLoaderv19b] ERROR: Mod = ACEv12e
-ScriptWarning: ChallengeCTFHUD CTF-420-OutForBlood.ChallengeCTFHUD0 (Function Botpack.ChallengeCTFHUD.Timer:0033) Accessed None 'PlayerReplicationInfo'
-ScriptWarning: ChallengeCTFHUD CTF-420-OutForBlood.ChallengeCTFHUD0 (Function Botpack.ChallengeCTFHUD.Timer:0033) Accessed None 'PlayerReplicationInfo'
-ScriptWarning: ChallengeCTFHUD CTF-420-OutForBlood.ChallengeCTFHUD0 (Function Botpack.ChallengeCTFHUD.Timer:0033) Accessed None 'PlayerReplicationInfo'
-ScriptWarning: ChallengeCTFHUD CTF-420-OutForBlood.ChallengeCTFHUD0 (Function Botpack.ChallengeCTFHUD.Timer:0033) Accessed None 'PlayerReplicationInfo'
-ScriptWarning: ChallengeCTFHUD CTF-420-OutForBlood.ChallengeCTFHUD0 (Function Botpack.ChallengeCTFHUD.Timer:0033) Accessed None 'PlayerReplicationInfo'
-ScriptWarning: ChallengeCTFHUD CTF-420-OutForBlood.ChallengeCTFHUD0 (Function Botpack.ChallengeCTFHUD.Timer:0033) Accessed None 'PlayerReplicationInfo'
-ScriptWarning: ChallengeCTFHUD CTF-420-OutForBlood.ChallengeCTFHUD0 (Function Botpack.ChallengeCTFHUD.Timer:0033) Accessed None 'PlayerReplicationInfo'
-ScriptWarning: ChallengeCTFHUD CTF-420-OutForBlood.ChallengeCTFHUD0 (Function Botpack.ChallengeCTFHUD.Timer:0033) Accessed None 'PlayerReplicationInfo'
-ScriptWarning: ChallengeCTFHUD CTF-420-OutForBlood.ChallengeCTFHUD0 (Function Botpack.ChallengeCTFHUD.Timer:0033) Accessed None 'PlayerReplicationInfo'
-ScriptWarning: ChallengeCTFHUD CTF-420-OutForBlood.ChallengeCTFHUD0 (Function Botpack.ChallengeCTFHUD.Timer:0033) Accessed None 'PlayerReplicationInfo'
-ScriptWarning: ChallengeCTFHUD CTF-420-OutForBlood.ChallengeCTFHUD0 (Function Botpack.ChallengeCTFHUD.Timer:0033) Accessed None 'PlayerReplicationInfo'
 Log: appRequestExit(0)
 Exit: Preparing to exit.
 Log: Collecting garbage
@@ -813,10 +287,14 @@ Log: Unbound to IpDrv.dll
 Log: Unloading: Package IpDrv
 Log: Unloading: Package Announcer
 Log: Unloading: Package Detail
+Log: Unloading: Package ArenaTex
 Log: Unloading: Package GenFX
+Log: Unloading: Package NaliCast
 Log: Unloading: Package DecayedS
-Log: Unloading: Package GenIn
 Log: Unloading: Package genfluid
+Log: Unloading: Package AmbModern
+Log: Unloading: Package AmbAncient
+Log: Unloading: Package AmbOutside
 Exit: XOpenGL: Exit
 DevGraphics: UnMapping Buffers
 Log: Unloading: Package UTMenu
@@ -826,75 +304,49 @@ Log: Unloading: Package UWeb
 Log: Unloading: Package UTServerAdmin
 Log: Unloading: Package IpServer
 Log: Unloading: Package LadrArrow
-Log: Unloading: Package FCommandoSkins
 Log: Unbound to XOpenGLDrv.dll
 Log: Unbound to Galaxy.dll
 DevAudio: Galaxy SetViewport: NULL
 Exit: Galaxy shut down
 Log: Unloading: Package LadderFonts
-Init: Shut down moving brush tracker for Level CTF-420-OutForBlood.MyLevel
-NetComeGo: Close TcpipConnection0 07/01/23 11:45:56
-Exit: WinSock shut down
+Log: Unloading: Package SGirlSkins
+Log: Unloading: Package CommandoSkins
+Init: Shut down moving brush tracker for Level CTF-[R3P]-W007-II-[AMC].MyLevel
 Log: Unloading: Package UWindowFonts
 Log: Unbound to udemo.dll
 Log: Unloading: Package udemo
 Log: Unloading: Package utmenu23
-Log: Unloading: Package UTBrowser
-Log: Unloading: Package ShaneChurch
-Log: Unloading: Package XFX
-Log: Unloading: Package DDayFX
+Log: Unloading: Package SpaceFX
+Log: Unloading: Package Scripted
+Log: Unloading: Package Mine
+Log: Unloading: Package ISVFX
+Log: Unloading: Package FCommandoSkins
+Log: Unloading: Package CTF-[R3P]-W007-II-[AMC]
+Log: Unloading: Package PK_Tech_Set
+Log: Unloading: Package R3pW007Tex
+Log: Unloading: Package CSMCXExtras
+Log: Unloading: Package SkyR3p
+Log: Unloading: Package swjumppad
+Log: Unloading: Package R3pTex
+Log: Unloading: Package R3pGlass2
+Log: Unloading: Package XC_Siege_r4
 Log: Unloading: Package XbpFX
+Log: Unloading: Package XFX
 Log: Unloading: Package Palettes
-Log: Unloading: Package Crypt2
-Log: Unloading: Package CTF-420-OutForBlood
-Log: Unloading: Package Lian-X
-Log: Unloading: Package Lock
-Log: Unloading: Package UTtech2
-Log: Unloading: Package SoldierSkins
-Log: Unloading: Package CommandoSkins
-Log: Unloading: Package SGirlSkins
-Log: Unloading: Package BossSkins
-Log: Unloading: Package NDgrap49c
-Log: Unloading: Package NDdj4
-Log: Unloading: Package NDgencli5
-Log: Unloading: Package FlagAnnouncementsV2
-Log: Unloading: Package DefaultAnnouncements
-Log: Unloading: Package ZeroPingPlus103
-Log: Unloading: Package cgzpp22a
-Log: Unloading: Package ComboMsgsCS
-Log: Unloading: Package NoSelfDamage
-Log: Unloading: Package KickIdlePlayers2_sg1
-Log: Unloading: Package PlyrCmdsV01a
-Log: Unloading: Package CountryFlags3
-Log: Unloading: Package ATBHS7fixSG1
-Log: Unloading: Package 2k4Sounds24
-Log: Unloading: Package SoundsSexy
-Log: Unloading: Package MapVoteLAv2_Big21a
-Log: Unloading: Package SmartCTF_4E-ESU2
-Log: Unloading: Package NPLoader_v19b
-Log: Unloading: Package NPLoaderLLU_v18b
-Log: Unloading: Package NPLoaderLLD_v18b
-Log: Unloading: Package NPLoaderLLS_v18b
-Log: Unloading: Package NPLoaderLLDL_v18b
-Log: Unloading: Package ACEv12e_Cdll
-Log: Unloading: Package IACEv12
-Log: Unloading: Package ACEv12e_C
-Log: Unloading: Package UTSAccuBeta4_2
-Log: Unloading: Package Revenge2
-Log: Unloading: Package ESU-Flags-Splash
-Log: Unloading: Package LogoSplashV3
-Log: Unloading: Package SmartBan02
-Log: Unloading: Package WinClient
-Log: Unbound to Editor.dll
-Log: Unloading: Package Editor
-Log: Unloading: Package 7D29D4484E94ADDF29537094BF68750E
-Log: Unloading: Package BFD5AAE94B816DCB937781970CCB3E8C
-Log: Unloading: Package 5B3350A84DFC2DA24D77C994C798812B
-Log: Unloading: Package 19B435334607665EC1A989AA2290323E
-Log: Unbound to NPLoaderLL_v18b.dll
-Log: Unloading: Package NPLoaderLL_v18b
-Log: Garbage: objects: 48151->0; refs: 0
+Log: Unloading: Package Liquids
+Log: Unloading: Package W007ExtraHealthy1
+Log: Unloading: Package R3pW007Health
+Log: Unloading: Package Activates
+Log: Unloading: Package VRikers
+Log: Unloading: Package R3pBolt3
+Log: Unloading: Package R3pW007Health2
+Log: Unloading: Package SlowVacuumZone
+Log: Unloading: Package R3pSignW007_part
+Log: Unloading: Package R3pUserFonts7
+Log: Unloading: Package chaossounds2
+Log: Unloading: Package Razor-ub
+Log: Garbage: objects: 36241->0; refs: 0
 Exit: Object subsystem successfully closed.
 Exit: Exiting.
 Exit: Allocation checking disabled
-Log: Log file closed, 07/01/23 11:45:56
+Log: Log file closed, 07/01/23 12:27:01
