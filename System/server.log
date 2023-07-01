@@ -1,0 +1,142 @@
+Log: Log file open, 07/01/23 00:49:02
+Init: Name subsystem initialized
+Init: Detected: Microsoft Windows NT 6.2 (Build: 9200)
+Init: Version: 436
+Init: Compiled: Oct 24 2000 23:40:18
+Init: Command line: DM-Morpheus.unr?Game=BotPack.DeathMatchPlus?Mutator=?Listen -server log=server.log
+Init: Base directory: C:\Users\anika\OneDrive\Documents\Unreal Projects\Demo\Xenia\Unreal Tournament 1999\System\
+Init: Character set: Unicode
+Log: Bound to Engine.dll
+Log: Bound to Core.dll
+Log: Bound to Window.dll
+Init: Object subsystem initialized
+Init: Computer: M16
+Init: User: anika
+Init: Memory total: Phys=2097151K Pagef=4194303K Virt=2097024K
+Init: Working set: 32000 / 159000
+Init: CPU Speed=2419.204043 MHz
+Init: CPU Page size=4096, Processors=21
+Init: CPU Detected: PentiumPro-class processor (GenuineIntel)
+Init: CPU Features: CMov FPU RDTSC PAE MMX KNI
+Init: Unreal engine initialized
+Log: Browse: DM-Morpheus.unr?Name=adrak0?Class=Botpack.TFemale1?team=255?skin=FCommandoSkins.cmdo?Face=FCommandoSkins.ivana?Voice=BotPack.VoiceFemaleOne?Game=BotPack.DeathMatchPlus?Mutator=?Listen
+Log: LoadMap: DM-Morpheus.unr?Name=adrak0?Class=Botpack.TFemale1?team=255?skin=FCommandoSkins.cmdo?Face=FCommandoSkins.ivana?Voice=BotPack.VoiceFemaleOne?Game=BotPack.DeathMatchPlus?Mutator=?Listen
+Log: Bound to Fire.dll
+Log: Bound to IpDrv.dll
+Log: Collecting garbage
+Log: Purging garbage
+Log: Garbage: objects: 16576->16564; refs: 278775
+Log: Game class is 'DeathMatchPlus'
+Init: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+Init: WinSock: Socket queue 131072 / 131072
+Init: WinSock: I am M16 (192.168.29.8)
+DevNet: TcpNetDriver on port 7777
+Log: Server Package: SoldierSkins
+Log: Server Package: CommandoSkins
+Log: Server Package: FCommandoSkins
+Log: Server Package: SGirlSkins
+Log: Server Package: BossSkins
+Log: Server Package: Botpack
+Log: Server Package: MultiMesh
+Log: Server Package: Relics
+Log: Server Package: EpicCustomModels
+Log: Server Package: TCowMeshSkins
+Log: Server Package: TNaliMeshSkins
+Log: Server Package: TSkMSkins
+Log: Server Package: De
+Log: Spawning: IpDrv.UdpBeacon
+Log: Spawning: IpServer.UdpServerQuery
+Log: Spawning: IpServer.UdpServerUplink
+Log: Spawning: IpServer.UdpServerUplink
+Log: Spawning: IpServer.UdpServerUplink
+Log: Spawning: UWeb.WebServer
+Log: Bound to UWeb.dll
+Log: Level is Level DM-Morpheus.MyLevel
+Log: Bringing Level DM-Morpheus.MyLevel up for play (20)...
+ScriptLog: InitGame: ?Name=adrak0?Class=Botpack.TFemale1?team=255?skin=FCommandoSkins.cmdo?Face=FCommandoSkins.ivana?Voice=BotPack.VoiceFemaleOne?Game=BotPack.DeathMatchPlus?Mutator=?Listen
+ScriptLog: Base Mutator is DM-Morpheus.DMMutator0
+ScriptLog: UdpServerQuery(crt): Port 7778 successfully bound.
+Log: Resolving unreal.epicgames.com...
+Log: Resolving master0.gamespy.com...
+Log: Resolving master.mplayer.com...
+ScriptLog: Webserver is not enabled.  Set bEnabled to True in Advanced Options.
+ScriptLog: Initiating local logging...
+ScriptLog: Initiating world logging...
+Init: Game engine initialized
+Log: Startup time: 0.269400 seconds
+Log: AInternetLink Resolve failed: Can't find host unreal.epicgames.com (WSAHOST_NOT_FOUND)
+ScriptLog: UdpServerUplink: Failed to resolve master server address, aborting.
+Log: AInternetLink Resolve failed: Can't find host master0.gamespy.com (WSAHOST_NOT_FOUND)
+ScriptLog: UdpServerUplink: Failed to resolve master server address, aborting.
+Log: Resolved master.mplayer.com (165.160.15.20)
+ScriptLog: UdpServerUplink: Master Server is master.mplayer.com:27900
+ScriptLog: UdpServerUplink: Port 7779 successfully bound.
+Log: WLog::OnCommand ID_NotifyExit
+Log: appRequestExit(0)
+Exit: Preparing to exit.
+Log: Purging garbage
+Log: Unbound to Engine.dll
+Log: Unbound to Core.dll
+Log: Unbound to Window.dll
+Log: -0.0ms Unloading: Package Engine
+Log: -0.0ms Unloading: Package Core
+Exit: Game engine shut down
+Log: -0.0ms Unloading: Package DM-Morpheus
+Log: -0.0ms Unloading: Package FractalFX
+Log: -0.0ms Unloading: Package Detail
+Log: Unbound to Fire.dll
+Log: -0.0ms Unloading: Package Fire
+Log: -0.0ms Unloading: Package RainFX
+Log: -0.0ms Unloading: Package DecayedS
+Log: -0.0ms Unloading: Package city
+Log: -0.0ms Unloading: Package Slums
+Log: -0.0ms Unloading: Package Botpack
+Log: -0.0ms Unloading: Package UnrealShare
+Log: -0.0ms Unloading: Package UnrealI
+Log: -0.0ms Unloading: Package Female2Voice
+Log: -0.0ms Unloading: Package Male2Voice
+Log: -0.0ms Unloading: Package Female1Voice
+Log: -0.0ms Unloading: Package BossVoice
+Log: -0.0ms Unloading: Package Male1Voice
+Log: -0.0ms Unloading: Package UMenu
+Log: -0.0ms Unloading: Package UWindow
+Log: -0.0ms Unloading: Package UBrowser
+Log: Unbound to IpDrv.dll
+Log: -0.0ms Unloading: Package IpDrv
+Log: -0.0ms Unloading: Package Announcer
+Log: -0.0ms Unloading: Package SpaceFX
+Log: -0.0ms Unloading: Package GenFX
+Log: -0.0ms Unloading: Package UTtech2
+Log: -0.0ms Unloading: Package genfluid
+Log: -0.0ms Unloading: Package UTtech1
+Log: -0.0ms Unloading: Package ShaneSky
+Log: -0.0ms Unloading: Package Scripted
+Log: -0.0ms Unloading: Package AmbModern
+Log: -0.0ms Unloading: Package AmbOutside
+Log: -0.0ms Unloading: Package UTtech3
+Log: -0.0ms Unloading: Package SaveMe
+Exit: WinSock shut down
+Log: -0.0ms Unloading: Package SGirlSkins
+Log: -0.0ms Unloading: Package FCommandoSkins
+Log: -0.0ms Unloading: Package CommandoSkins
+Log: -0.0ms Unloading: Package SoldierSkins
+Log: -0.0ms Unloading: Package BossSkins
+Log: -0.0ms Unloading: Package MultiMesh
+Log: -0.0ms Unloading: Package EpicCustomModels
+Log: -0.0ms Unloading: Package Relics
+Log: -0.0ms Unloading: Package TCowMeshSkins
+Log: -0.0ms Unloading: Package TNaliMeshSkins
+Log: -0.0ms Unloading: Package TSkMSkins
+Log: -0.0ms Unloading: Package de
+Log: -0.0ms Unloading: Package IpServer
+Log: Unbound to UWeb.dll
+Log: -0.0ms Unloading: Package UWeb
+Log: Garbage: objects: 17034->0; refs: 278775
+Exit: Object subsystem successfully closed.
+Exit: Exiting.
+Uninitialized: Name subsystem shut down
+Uninitialized: Memory Allocation Status
+Uninitialized: Curr Memory  0.043M /  0.992M
+Uninitialized: Peak Memory  13.579M /  15.266M
+Uninitialized: Allocs          49 Current /  152200 Total
+Uninitialized: Log file closed, 07/01/23 00:56:03
