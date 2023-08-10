@@ -1,10 +1,10 @@
-﻿Log: Log file open, 07/01/23 12:25:53
+﻿Log: Log file open, 08/09/23 21:58:14
 Init: Name subsystem initialized
 Init: Version: 469
 Init: Revision: c (Release)
 Init: Compiled: Oct 29 2022 10:10:27
 Init: Command line: 
-Init: Base directory: C:\Users\anika\OneDrive\Documents\Unreal Projects\Demo\Xenia\Unreal Tournament 1999\System\
+Init: Base directory: C:\Users\anika\OneDrive\Documents\Unreal Projects\Demo\Unreal Tournament 1999\System\
 Init: Character set: Unicode
 Log: Bound to Engine.dll
 Log: Bound to Core.dll
@@ -16,42 +16,11 @@ Init: Computer: M16
 Init: User: anika
 Init: Memory total: Phys=4194303K Pagef=4194303K Virt=4194176K
 Init: Working set: 32000 / 159000
-Init: CPU Page size=4096, Processors=21
+Init: CPU Page size=4096, Processors=32
 Init: CPU Detected: 13th Gen Intel(R) Core(TM) i9-13900HX (GenuineIntel)
 Init: CPU Features: INVARIANT_TSC CMov FPU RDTSC PAE MMX SSE SSE2 SSE3 SSSE3 SSE4_1 SSE4_2 AVX AVX2
-Init: Timer Frequency=2419.198395 MHz - Timing Source = RDTSC
+Init: Timer Frequency=2419.199765 MHz - Timing Source = RDTSC
 Init: Unreal engine initialized
-Log: Deleting temporary file: ../Cache\0000.tmp
-Log: Deleting temporary file: ../Cache\0002.tmp
-Log: Deleting temporary file: ../Cache\0004.tmp
-Log: Deleting temporary file: ../Cache\0006.tmp
-Log: Deleting temporary file: ../Cache\0008.tmp
-Log: Deleting temporary file: ../Cache\000A.tmp
-Log: Deleting temporary file: ../Cache\000C.tmp
-Log: Deleting temporary file: ../Cache\000E.tmp
-Log: Deleting temporary file: ../Cache\0010.tmp
-Log: Deleting temporary file: ../Cache\0012.tmp
-Log: Deleting temporary file: ../Cache\0014.tmp
-Log: Deleting temporary file: ../Cache\0016.tmp
-Log: Deleting temporary file: ../Cache\0018.tmp
-Log: Deleting temporary file: ../Cache\001A.tmp
-Log: Deleting temporary file: ../Cache\001C.tmp
-Log: Deleting temporary file: ../Cache\001E.tmp
-Log: Deleting temporary file: ../Cache\0020.tmp
-Log: Deleting temporary file: ../Cache\0022.tmp
-Log: Deleting temporary file: ../Cache\0024.tmp
-Log: Deleting temporary file: ../Cache\0026.tmp
-Log: Deleting temporary file: ../Cache\0028.tmp
-Log: Deleting temporary file: ../Cache\002A.tmp
-Log: Deleting temporary file: ../Cache\002C.tmp
-Log: Deleting temporary file: ../Cache\002E.tmp
-Log: Deleting temporary file: ../Cache\0030.tmp
-Log: Deleting temporary file: ../Cache\0032.tmp
-Log: Deleting temporary file: ../Cache\0034.tmp
-Log: Deleting temporary file: ../Cache\0036.tmp
-Log: Deleting temporary file: ../Cache\0038.tmp
-Log: Deleting temporary file: ../Cache\003A.tmp
-Log: Deleting temporary file: ../Cache\003C.tmp
 Log: Bound to WinDrv.dll
 Init: Enhanced Pointer Precision Disabled
 Init: Initializing DirectDraw
@@ -89,7 +58,7 @@ Log: LoadMap: Entry
 Log: Bound to Fire.dll
 Log: Bound to IpDrv.dll
 Log: Game class is 'UTIntro'
-Log: Bringing Level Entry.MyLevel up for play (0)...
+Log: Bringing Level Entry.MyLevel up for play (240)...
 ScriptLog: InitGame: 
 ScriptLog: Base Mutator is Entry.Mutator0
 Log: Browse: CityIntro.unr?Name=adrak0?Class=Botpack.TFemale1?team=1?skin=FCommandoSkins.cmdo?Face=FCommandoSkins.ivana?Voice=BotPack.VoiceFemaleOne
@@ -100,7 +69,7 @@ Log: Unloading: Package WinDrv
 Log: Unloading: Package Render
 Log: Garbage: objects: 16928->16926; refs: 227992
 Log: Game class is 'UTIntro'
-Log: Bringing Level CityIntro.MyLevel up for play (0)...
+Log: Bringing Level CityIntro.MyLevel up for play (240)...
 ScriptLog: InitGame: ?Name=adrak0?Class=Botpack.TFemale1?team=1?skin=FCommandoSkins.cmdo?Face=FCommandoSkins.ivana?Voice=BotPack.VoiceFemaleOne
 ScriptLog: Base Mutator is CityIntro.Mutator0
 Init: Initialized moving brush tracker for Level CityIntro.MyLevel
@@ -122,7 +91,7 @@ Init: XOpenGL: DesiredDepthBits: 24
 DevGraphics: XOpenGL: Setting PixelFormat: 41
 Init: GL_VENDOR     : NVIDIA Corporation
 Init: GL_RENDERER   : NVIDIA GeForce RTX 4080 Laptop GPU/PCIe/SSE2
-Init: GL_VERSION    : 4.6.0 NVIDIA 536.40
+Init: GL_VERSION    : 4.6.0 NVIDIA 536.67
 Init: GL_SHADING_LANGUAGE_VERSION    : 4.60 NVIDIA
 Init: OpenGL 4.6 context initialized!
 DevGraphics: XOpenGL: GL_ARB_bindless_texture found. UseBindlessTextures enabled.
@@ -172,7 +141,7 @@ Init: Galaxy is using DirectSound
 Init: Galaxy initialized
 DevAudio: Galaxy SetViewport: WindowsViewport0
 Init: Game engine initialized
-Log: Startup time: 0.884035 seconds
+Log: Startup time: 1.559471 seconds
 Warning: FIREWALL: Freed XP.SP2 Firewall Object
 Log: URL: Adding default option Name=adrak0
 Log: URL: Adding default option Class=Botpack.TFemale1
@@ -193,62 +162,369 @@ ScriptLog: Calculated Effective GUI Scale: 1.000000
 Log: Bound to udemo.dll
 udemo: Startup hack successful!
 Log: UDEMO: Successfully got list of demos
-Log: URL: Adding default option Name=adrak0
-Log: URL: Adding default option Class=Botpack.TFemale1
-Log: URL: Adding default option team=1
-Log: URL: Adding default option skin=FCommandoSkins.cmdo
-Log: URL: Adding default option Face=FCommandoSkins.ivana
-Log: URL: Adding default option Voice=BotPack.VoiceFemaleOne
-Log: Browse: CTF-[R3P]-W007-II-[AMC].unr?Game=BotPack.CTFGame?Mutator=?Name=adrak0?Class=Botpack.TFemale1?team=1?skin=FCommandoSkins.cmdo?Face=FCommandoSkins.ivana?Voice=BotPack.VoiceFemaleOne
-Log: LoadMap: CTF-[R3P]-W007-II-[AMC].unr?Game=BotPack.CTFGame?Mutator=?Name=adrak0?Class=Botpack.TFemale1?team=1?skin=FCommandoSkins.cmdo?Face=FCommandoSkins.ivana?Voice=BotPack.VoiceFemaleOne
-DevAudio: Galaxy SetViewport: WindowsViewport0
-Log: UDEMO: Successfully got list of demos
-DevGraphics: XOpenGL: Flush
-Init: XOpenGL: Setting VSync: Adaptive
-Log: Collecting garbage
-Log: Purging garbage
-Log: Unloading: Package CityIntro
-Log: Unloading: Package city
-Log: Unloading: Package RainFX
-Log: Unloading: Package GenIn
-Log: Unloading: Package NaliFX
-Log: Unloading: Package ShaneSky
-Log: Unloading: Package openingwave
-Log: Unloading: Package Uttitle
-Log: Unloading: Package FCommandoSkins
-Log: Unloading: Package MultiMesh
-Log: Unloading: Package EpicCustomModels
-Log: Unloading: Package DM-Morpheus
-Log: Unloading: Package FractalFX
-Log: Unloading: Package Slums
-Log: Unloading: Package UTtech2
-Log: Unloading: Package UTtech1
-Log: Unloading: Package UTtech3
-Log: Unloading: Package SaveMe
-Log: Unloading: Package AS-Frigate
-Log: Unloading: Package Starship
-Log: Unloading: Package GenEarth
-Log: Unloading: Package DoorsMod
-Log: Unloading: Package Mission
-Log: Unloading: Package DOM-Cinder
-Log: Unloading: Package Metalmys
-Log: Unloading: Package hubeffects
-Log: Unloading: Package Run
-Log: Unloading: Package utcrypt
-Log: Garbage: objects: 30503->29054; refs: 502759
-Log: Game class is 'CTFGame'
-Log: Bringing Level CTF-[R3P]-W007-II-[AMC].MyLevel up for play (0)...
-ScriptLog: InitGame: ?Game=BotPack.CTFGame?Mutator=?Name=adrak0?Class=Botpack.TFemale1?team=1?skin=FCommandoSkins.cmdo?Face=FCommandoSkins.ivana?Voice=BotPack.VoiceFemaleOne
-ScriptLog: Base Mutator is CTF-[R3P]-W007-II-[AMC].DMMutator0
-ScriptLog: Initiating local logging...
-Log: Spawning new actor for Viewport WindowsViewport0
-ScriptLog: Team 1
-ScriptLog: Login: adrak0
-Log: Possessed PlayerPawn: TFemale1 CTF-[R3P]-W007-II-[AMC].TFemale10
-Init: Initialized moving brush tracker for Level CTF-[R3P]-W007-II-[AMC].MyLevel
-DevAudio: Galaxy SetViewport: WindowsViewport0
-DevGraphics: XOpenGL: Flush
-Init: XOpenGL: Setting VSync: Adaptive
+Init: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+Log: Resolving unreal.epicgames.com...
+Log: AInternetLink Resolve failed: Can't find host unreal.epicgames.com (WSAHOST_NOT_FOUND)
+Log: Resolving utmaster.epicgames.com...
+Log: Resolving master.333networks.com...
+Log: AInternetLink Resolve failed: Can't find host utmaster.epicgames.com (WSAHOST_NOT_FOUND)
+ScriptLog: UBrowserGSpyLink[utmaster.epicgames.com:28900]: Failed to resolve master server address, aborting.
+Log: Resolved master.333networks.com (81.205.81.173)
+ScriptLog: UBrowserGSpyLink: Master Server is master.333networks.com:28900
+Init: WinSock: I am M16 (192.168.56.1)
+ScriptLog: Timed out getting player replies.  Attempt 1
+ScriptLog: Timed out getting player replies.  Attempt 1
+ScriptLog: Timed out getting player replies.  Attempt 1
+ScriptLog: Timed out getting player replies.  Attempt 1
+ScriptLog: Timed out getting player replies.  Attempt 1
+Log: Resolving unreal.epicgames.com...
+Log: AInternetLink Resolve failed: Can't find host unreal.epicgames.com (WSAHOST_NOT_FOUND)
+ScriptLog: Timed out getting player replies.  Attempt 1
+ScriptLog: Timed out getting player replies.  Attempt 1
+ScriptLog: Timed out getting player replies.  Attempt 1
+ScriptLog: Timed out getting player replies.  Attempt 1
+ScriptLog: Timed out getting player replies.  Attempt 1
+ScriptLog: Timed out getting player replies.  Attempt 1
+ScriptLog: Timed out getting player replies.  Attempt 1
+ScriptLog: Timed out getting player replies.  Attempt 1
+ScriptLog: Timed out getting player replies.  Giving Up
+ScriptLog: Timed out getting player replies.  Attempt 1
+ScriptLog: Timed out getting player replies.  Attempt 1
+ScriptLog: Timed out getting player replies.  Attempt 1
+ScriptLog: Timed out getting player replies.  Giving Up
+ScriptLog: Timed out getting player replies.  Giving Up
+ScriptLog: Timed out getting player replies.  Giving Up
+ScriptLog: Timed out getting player replies.  Attempt 1
+ScriptLog: Timed out getting player replies.  Attempt 1
+ScriptLog: Timed out getting player replies.  Attempt 1
+ScriptLog: Timed out getting player replies.  Attempt 1
+ScriptLog: Timed out getting player replies.  Attempt 1
+ScriptLog: Timed out getting player replies.  Attempt 1
+ScriptLog: Timed out getting player replies.  Attempt 1
+ScriptLog: Timed out getting player replies.  Attempt 1
+ScriptLog: Timed out getting player replies.  Attempt 1
+ScriptLog: Timed out getting player replies.  Attempt 1
+ScriptLog: Timed out getting player replies.  Attempt 1
+ScriptLog: Timed out getting player replies.  Attempt 1
+ScriptLog: Timed out getting player replies.  Giving Up
+ScriptLog: Timed out getting player replies.  Attempt 1
+ScriptLog: Timed out getting player replies.  Attempt 1
+ScriptLog: Timed out getting player replies.  Attempt 1
+ScriptLog: Ping Timeout from 213.230.216.9.  Attempt 1
+ScriptLog: Ping Timeout from 213.230.216.9.  Attempt 1
+ScriptLog: Ping Timeout from 213.230.216.9.  Attempt 1
+ScriptLog: Timed out getting player replies.  Attempt 1
+ScriptLog: Ping Timeout from 213.230.216.9.  Attempt 1
+ScriptLog: Timed out getting player replies.  Attempt 1
+ScriptLog: Timed out getting player replies.  Attempt 1
+ScriptLog: Timed out getting player replies.  Attempt 1
+ScriptLog: Timed out getting player replies.  Attempt 1
+ScriptLog: Ping Timeout from 103.125.218.185.  Attempt 1
+ScriptLog: Timed out getting player replies.  Attempt 1
+ScriptLog: Timed out getting player replies.  Attempt 1
+ScriptLog: Ping Timeout from 213.230.216.9 Giving Up
+ScriptLog: Timed out getting player replies.  Giving Up
+ScriptLog: Timed out getting player replies.  Attempt 1
+ScriptLog: Timed out getting player replies.  Attempt 1
+ScriptLog: Ping Timeout from 213.230.216.9 Giving Up
+ScriptLog: Timed out getting player replies.  Attempt 1
+ScriptLog: Ping Timeout from 213.230.216.9 Giving Up
+ScriptLog: Timed out getting player replies.  Attempt 1
+ScriptLog: Timed out getting player replies.  Attempt 1
+ScriptLog: Timed out getting player replies.  Attempt 1
+ScriptLog: Ping Timeout from 114.23.116.2.  Attempt 1
+ScriptLog: Timed out getting player replies.  Attempt 1
+ScriptLog: Timed out getting player replies.  Attempt 1
+ScriptLog: Timed out getting player replies.  Attempt 1
+ScriptLog: Ping Timeout from 213.230.216.9 Giving Up
+Log: Resolving unreal.epicgames.com...
+Log: AInternetLink Resolve failed: Can't find host unreal.epicgames.com (WSAHOST_NOT_FOUND)
+ScriptLog: Ping Timeout from 46.138.254.64.  Attempt 1
+ScriptLog: Timed out getting player replies.  Attempt 1
+ScriptLog: Timed out getting player replies.  Attempt 1
+ScriptLog: Timed out getting player replies.  Attempt 1
+ScriptLog: Timed out getting player replies.  Attempt 1
+ScriptLog: Timed out getting player replies.  Attempt 1
+ScriptLog: Timed out getting player replies.  Attempt 1
+ScriptLog: Timed out getting player replies.  Attempt 1
+ScriptLog: Timed out getting player replies.  Attempt 1
+ScriptLog: Ping Timeout from 51.158.144.133.  Attempt 1
+ScriptLog: Timed out getting player replies.  Attempt 1
+ScriptLog: Timed out getting player replies.  Attempt 1
+ScriptLog: Timed out getting player replies.  Attempt 1
+ScriptLog: Timed out getting player replies.  Attempt 1
+ScriptLog: Timed out getting player replies.  Giving Up
+ScriptLog: Timed out getting player replies.  Attempt 1
+ScriptLog: Ping Timeout from 114.23.116.15.  Attempt 1
+ScriptLog: Timed out getting player replies.  Attempt 1
+ScriptLog: Timed out getting player replies.  Attempt 1
+ScriptLog: Timed out getting player replies.  Attempt 1
+ScriptLog: Timed out getting player replies.  Attempt 1
+ScriptLog: Timed out getting player replies.  Attempt 1
+ScriptLog: Timed out getting player replies.  Attempt 1
+ScriptLog: Ping Timeout from 46.138.254.64 Giving Up
+ScriptLog: Timed out getting player replies.  Attempt 1
+ScriptLog: Timed out getting player replies.  Attempt 1
+ScriptLog: Timed out getting player replies.  Attempt 1
+ScriptLog: Timed out getting player replies.  Attempt 1
+ScriptLog: Timed out getting player replies.  Attempt 1
+ScriptLog: Timed out getting player replies.  Attempt 1
+ScriptLog: Timed out getting player replies.  Attempt 1
+ScriptLog: Timed out getting player replies.  Attempt 1
+ScriptLog: Timed out getting player replies.  Attempt 1
+ScriptLog: Timed out getting player replies.  Attempt 1
+ScriptLog: Timed out getting player replies.  Attempt 1
+ScriptLog: Timed out getting player replies.  Attempt 1
+ScriptLog: Timed out getting player replies.  Attempt 1
+ScriptLog: Ping Timeout from 68.103.38.126.  Attempt 1
+ScriptLog: Timed out getting player replies.  Attempt 1
+ScriptLog: Timed out getting player replies.  Attempt 1
+ScriptLog: Timed out getting player replies.  Attempt 1
+ScriptLog: Timed out getting player replies.  Attempt 1
+ScriptLog: Timed out getting player replies.  Attempt 1
+ScriptLog: Timed out getting player replies.  Attempt 1
+ScriptLog: Timed out getting player replies.  Attempt 1
+ScriptLog: Ping Timeout from 185.233.253.164.  Attempt 1
+ScriptLog: Ping Timeout from 51.158.144.133 Giving Up
+ScriptLog: Ping Timeout from 163.5.150.28.  Attempt 1
+ScriptLog: Timed out getting player replies.  Attempt 1
+ScriptLog: Timed out getting player replies.  Giving Up
+ScriptLog: Timed out getting player replies.  Attempt 1
+ScriptLog: Timed out getting player replies.  Attempt 1
+ScriptLog: Timed out getting player replies.  Giving Up
+ScriptLog: Timed out getting player replies.  Attempt 1
+ScriptLog: Timed out getting player replies.  Attempt 1
+ScriptLog: Timed out getting player replies.  Attempt 1
+ScriptLog: Timed out getting player replies.  Attempt 1
+ScriptLog: Timed out getting player replies.  Attempt 1
+ScriptLog: Timed out getting player replies.  Attempt 1
+ScriptLog: Timed out getting player replies.  Attempt 1
+ScriptLog: Timed out getting player replies.  Giving Up
+ScriptLog: Timed out getting player replies.  Attempt 1
+ScriptLog: Timed out getting player replies.  Giving Up
+ScriptLog: Timed out getting player replies.  Giving Up
+ScriptLog: Timed out getting player replies.  Attempt 1
+ScriptLog: Timed out getting player replies.  Attempt 1
+ScriptLog: Timed out getting player replies.  Attempt 1
+ScriptLog: Ping Timeout from 68.103.38.126 Giving Up
+ScriptLog: Timed out getting player replies.  Attempt 1
+ScriptLog: Timed out getting player replies.  Giving Up
+ScriptLog: Ping Timeout from 213.230.216.9.  Attempt 1
+ScriptLog: Timed out getting player replies.  Giving Up
+ScriptLog: Ping Timeout from 185.233.253.164 Giving Up
+ScriptLog: Timed out getting player replies.  Attempt 1
+ScriptLog: Ping Timeout from 94.208.197.152.  Attempt 1
+ScriptLog: Timed out getting player replies.  Giving Up
+ScriptLog: Timed out getting player replies.  Attempt 1
+ScriptLog: Timed out getting player replies.  Attempt 1
+ScriptLog: Timed out getting player replies.  Attempt 1
+ScriptLog: Timed out getting player replies.  Attempt 1
+ScriptLog: Ping Timeout from 149.28.250.148.  Attempt 1
+ScriptLog: Ping Timeout from 163.5.150.28 Giving Up
+ScriptLog: Timed out getting player replies.  Giving Up
+ScriptLog: Ping Timeout from 149.28.250.148.  Attempt 1
+ScriptLog: Timed out getting player replies.  Giving Up
+ScriptLog: Timed out getting player replies.  Attempt 1
+ScriptLog: Timed out getting player replies.  Giving Up
+ScriptLog: Ping Timeout from 81.110.22.83.  Attempt 1
+ScriptLog: Ping Timeout from 94.208.197.152 Giving Up
+ScriptLog: Ping Timeout from 31.120.253.104.  Attempt 1
+ScriptLog: Timed out getting player replies.  Giving Up
+ScriptLog: Ping Timeout from 213.230.216.9 Giving Up
+ScriptLog: Timed out getting player replies.  Giving Up
+ScriptLog: Ping Timeout from 207.231.2.55.  Attempt 1
+ScriptLog: Ping Timeout from 149.28.250.148 Giving Up
+ScriptLog: Ping Timeout from 149.28.250.148 Giving Up
+ScriptLog: Timed out getting player replies.  Attempt 1
+ScriptLog: Ping Timeout from 81.110.22.83 Giving Up
+ScriptLog: Ping Timeout from 207.231.2.55 Giving Up
+ScriptLog: Timed out getting player replies.  Attempt 1
+ScriptLog: Ping Timeout from 31.120.253.104 Giving Up
+ScriptLog: Timed out getting player replies.  Attempt 1
+ScriptLog: Timed out getting player replies.  Attempt 1
+ScriptLog: Timed out getting player replies.  Attempt 1
+ScriptLog: Timed out getting player replies.  Attempt 1
+ScriptLog: Timed out getting player replies.  Attempt 1
+ScriptLog: Timed out getting player replies.  Attempt 1
+ScriptLog: Timed out getting player replies.  Attempt 1
+ScriptLog: Timed out getting player replies.  Attempt 1
+ScriptLog: Timed out getting player replies.  Attempt 1
+ScriptLog: Timed out getting player replies.  Attempt 1
+ScriptLog: Timed out getting player replies.  Attempt 1
+ScriptLog: Timed out getting player replies.  Giving Up
+ScriptLog: Timed out getting player replies.  Attempt 1
+ScriptLog: Ping Timeout from 51.38.79.21.  Attempt 1
+ScriptLog: Ping Timeout from 24.11.96.209.  Attempt 1
+ScriptLog: Ping Timeout from 67.182.235.39.  Attempt 1
+ScriptLog: Timed out getting player replies.  Giving Up
+ScriptLog: Timed out getting player replies.  Attempt 1
+ScriptLog: Ping Timeout from 70.110.146.101.  Attempt 1
+ScriptLog: Timed out getting player replies.  Attempt 1
+ScriptLog: Timed out getting player replies.  Attempt 1
+ScriptLog: Timed out getting player replies.  Attempt 1
+ScriptLog: Timed out getting player replies.  Attempt 1
+ScriptLog: Timed out getting player replies.  Attempt 1
+ScriptLog: Ping Timeout from 24.11.96.209 Giving Up
+ScriptLog: Timed out getting player replies.  Attempt 1
+ScriptLog: Ping Timeout from 72.78.68.53.  Attempt 1
+ScriptLog: Timed out getting player replies.  Attempt 1
+ScriptLog: Timed out getting player replies.  Attempt 1
+ScriptLog: Timed out getting player replies.  Attempt 1
+ScriptLog: Ping Timeout from 67.182.235.39 Giving Up
+ScriptLog: Timed out getting player replies.  Attempt 1
+ScriptLog: Ping Timeout from 47.185.218.8.  Attempt 1
+ScriptLog: Timed out getting player replies.  Attempt 1
+ScriptLog: Timed out getting player replies.  Attempt 1
+ScriptLog: Ping Timeout from 70.110.146.101 Giving Up
+ScriptLog: Timed out getting player replies.  Attempt 1
+ScriptLog: Timed out getting player replies.  Attempt 1
+ScriptLog: Timed out getting player replies.  Giving Up
+ScriptLog: Timed out getting player replies.  Attempt 1
+ScriptLog: Timed out getting player replies.  Attempt 1
+ScriptLog: Timed out getting player replies.  Attempt 1
+ScriptLog: Timed out getting player replies.  Attempt 1
+ScriptLog: Timed out getting player replies.  Giving Up
+ScriptLog: Ping Timeout from 72.78.68.53 Giving Up
+ScriptLog: Timed out getting player replies.  Attempt 1
+ScriptLog: Ping Timeout from 37.59.37.210.  Attempt 1
+ScriptLog: Ping Timeout from 47.185.218.8 Giving Up
+ScriptLog: Timed out getting player replies.  Attempt 1
+ScriptLog: Timed out getting player replies.  Attempt 1
+ScriptLog: Timed out getting player replies.  Attempt 1
+ScriptLog: Ping Timeout from 37.59.37.210.  Attempt 1
+ScriptLog: Ping Timeout from 37.59.37.210.  Attempt 1
+ScriptLog: Ping Timeout from 20.76.205.37.  Attempt 1
+ScriptLog: Timed out getting player replies.  Attempt 1
+ScriptLog: Timed out getting player replies.  Attempt 1
+ScriptLog: Timed out getting player replies.  Attempt 1
+ScriptLog: Timed out getting player replies.  Attempt 1
+ScriptLog: Timed out getting player replies.  Attempt 1
+ScriptLog: Timed out getting player replies.  Attempt 1
+ScriptLog: Timed out getting player replies.  Attempt 1
+ScriptLog: Timed out getting player replies.  Attempt 1
+ScriptLog: Timed out getting player replies.  Attempt 1
+ScriptLog: Ping Timeout from 37.59.37.210 Giving Up
+ScriptLog: Ping Timeout from 37.59.37.210 Giving Up
+ScriptLog: Ping Timeout from 37.59.37.210 Giving Up
+ScriptLog: Timed out getting player replies.  Attempt 1
+ScriptLog: Timed out getting player replies.  Attempt 1
+ScriptLog: Timed out getting player replies.  Attempt 1
+ScriptLog: Ping Timeout from 217.76.52.175.  Attempt 1
+ScriptLog: Timed out getting player replies.  Attempt 1
+ScriptLog: Timed out getting player replies.  Attempt 1
+ScriptLog: Timed out getting player replies.  Attempt 1
+ScriptLog: Ping Timeout from 79.207.108.15.  Attempt 1
+ScriptLog: Ping Timeout from 20.76.205.37 Giving Up
+ScriptLog: Ping Timeout from 60.225.229.166.  Attempt 1
+ScriptLog: Ping Timeout from 217.76.52.175 Giving Up
+ScriptLog: Timed out getting player replies.  Giving Up
+ScriptLog: Ping Timeout from 47.223.80.43.  Attempt 1
+ScriptLog: Timed out getting player replies.  Attempt 1
+ScriptLog: Timed out getting player replies.  Attempt 1
+ScriptLog: Ping Timeout from 163.5.150.58.  Attempt 1
+ScriptLog: Timed out getting player replies.  Attempt 1
+ScriptLog: Ping Timeout from 62.219.126.72.  Attempt 1
+ScriptLog: Ping Timeout from 79.207.108.15 Giving Up
+ScriptLog: Timed out getting player replies.  Attempt 1
+ScriptLog: Timed out getting player replies.  Attempt 1
+ScriptLog: Ping Timeout from 163.5.150.59.  Attempt 1
+ScriptLog: Timed out getting player replies.  Attempt 1
+ScriptLog: Ping Timeout from 98.168.196.109.  Attempt 1
+ScriptLog: Ping Timeout from 60.225.229.166 Giving Up
+ScriptLog: Ping Timeout from 47.223.80.43 Giving Up
+ScriptLog: Timed out getting player replies.  Attempt 1
+ScriptLog: Ping Timeout from 151.236.216.75.  Attempt 1
+ScriptLog: Ping Timeout from 62.219.126.72 Giving Up
+ScriptLog: Ping Timeout from 186.137.54.176.  Attempt 1
+ScriptLog: Ping Timeout from 163.5.150.58 Giving Up
+ScriptLog: Ping Timeout from 163.5.150.59 Giving Up
+ScriptLog: Timed out getting player replies.  Attempt 1
+ScriptLog: Timed out getting player replies.  Attempt 1
+ScriptLog: Timed out getting player replies.  Attempt 1
+ScriptLog: Ping Timeout from 190.114.38.48.  Attempt 1
+ScriptLog: Ping Timeout from 98.168.196.109 Giving Up
+ScriptLog: Ping Timeout from 151.236.216.75 Giving Up
+ScriptLog: Ping Timeout from 186.137.54.176 Giving Up
+ScriptLog: Ping Timeout from 206.253.136.40.  Attempt 1
+ScriptLog: Timed out getting player replies.  Attempt 1
+ScriptLog: Timed out getting player replies.  Attempt 1
+ScriptLog: Timed out getting player replies.  Attempt 1
+ScriptLog: Ping Timeout from 47.223.80.43.  Attempt 1
+ScriptLog: Ping Timeout from 50.39.124.132.  Attempt 1
+ScriptLog: Ping Timeout from 50.39.124.132.  Attempt 1
+ScriptLog: Ping Timeout from 50.39.124.132.  Attempt 1
+ScriptLog: Ping Timeout from 190.114.38.48 Giving Up
+ScriptLog: Timed out getting player replies.  Giving Up
+ScriptLog: Ping Timeout from 176.58.120.227.  Attempt 1
+ScriptLog: Ping Timeout from 131.255.230.150.  Attempt 1
+ScriptLog: Ping Timeout from 206.253.136.40 Giving Up
+ScriptLog: Timed out getting player replies.  Attempt 1
+ScriptLog: Ping Timeout from 50.39.124.132.  Attempt 1
+ScriptLog: Ping Timeout from 85.167.160.88.  Attempt 1
+ScriptLog: Ping Timeout from 50.39.124.132 Giving Up
+ScriptLog: Ping Timeout from 50.39.124.132 Giving Up
+ScriptLog: Ping Timeout from 50.39.124.132 Giving Up
+ScriptLog: Ping Timeout from 47.223.80.43 Giving Up
+ScriptLog: Ping Timeout from 176.58.120.227 Giving Up
+ScriptLog: Timed out getting player replies.  Attempt 1
+ScriptLog: Ping Timeout from 50.39.124.132 Giving Up
+ScriptLog: Ping Timeout from 131.255.230.150 Giving Up
+ScriptLog: Ping Timeout from 176.58.120.227.  Attempt 1
+ScriptLog: Ping Timeout from 85.167.160.88 Giving Up
+ScriptLog: Ping Timeout from 176.58.120.227.  Attempt 1
+ScriptLog: Ping Timeout from 176.58.120.227.  Attempt 1
+ScriptLog: Ping Timeout from 176.58.120.227.  Attempt 1
+ScriptLog: Timed out getting player replies.  Attempt 1
+ScriptLog: Timed out getting player replies.  Attempt 1
+ScriptLog: Ping Timeout from 176.58.120.227.  Attempt 1
+ScriptLog: Ping Timeout from 176.58.120.227 Giving Up
+ScriptLog: Timed out getting player replies.  Attempt 1
+ScriptLog: Ping Timeout from 163.5.150.83.  Attempt 1
+ScriptLog: Ping Timeout from 176.58.120.227.  Attempt 1
+ScriptLog: Ping Timeout from 176.58.120.227 Giving Up
+ScriptLog: Ping Timeout from 176.58.120.227.  Attempt 1
+ScriptLog: Ping Timeout from 176.58.120.227.  Attempt 1
+ScriptLog: Ping Timeout from 176.58.120.227 Giving Up
+ScriptLog: Ping Timeout from 176.58.120.227 Giving Up
+ScriptLog: Ping Timeout from 163.5.150.60.  Attempt 1
+ScriptLog: Ping Timeout from 163.5.150.61.  Attempt 1
+ScriptLog: Ping Timeout from 163.5.150.62.  Attempt 1
+ScriptLog: Ping Timeout from 163.5.150.66.  Attempt 1
+ScriptLog: Ping Timeout from 176.58.120.227 Giving Up
+ScriptLog: Ping Timeout from 163.5.150.65.  Attempt 1
+ScriptLog: Ping Timeout from 176.58.120.227 Giving Up
+ScriptLog: Ping Timeout from 163.5.150.83 Giving Up
+ScriptLog: Ping Timeout from 176.58.120.227 Giving Up
+ScriptLog: Ping Timeout from 176.58.120.227 Giving Up
+ScriptLog: Ping Timeout from 163.5.150.60 Giving Up
+ScriptLog: Ping Timeout from 163.5.150.61 Giving Up
+ScriptLog: Ping Timeout from 163.5.150.62 Giving Up
+ScriptLog: Ping Timeout from 176.58.120.227.  Attempt 1
+ScriptLog: Ping Timeout from 163.5.150.66 Giving Up
+ScriptLog: Ping Timeout from 163.5.150.64.  Attempt 1
+ScriptLog: Ping Timeout from 176.58.120.227.  Attempt 1
+ScriptLog: Ping Timeout from 163.5.150.63.  Attempt 1
+ScriptLog: Ping Timeout from 176.58.120.227.  Attempt 1
+ScriptLog: Ping Timeout from 163.5.150.65 Giving Up
+ScriptLog: Ping Timeout from 176.58.120.227.  Attempt 1
+ScriptLog: Ping Timeout from 163.5.150.64 Giving Up
+ScriptLog: Ping Timeout from 109.250.17.102.  Attempt 1
+ScriptLog: Ping Timeout from 176.58.120.227 Giving Up
+ScriptLog: Ping Timeout from 176.58.120.227 Giving Up
+ScriptLog: Ping Timeout from 163.5.150.63 Giving Up
+ScriptLog: Ping Timeout from 91.10.114.37.  Attempt 1
+ScriptLog: Ping Timeout from 3.139.132.236.  Attempt 1
+ScriptLog: Ping Timeout from 176.58.120.227 Giving Up
+ScriptLog: Ping Timeout from 176.58.120.227 Giving Up
+ScriptLog: Ping Timeout from 177.71.104.245.  Attempt 1
+ScriptLog: Ping Timeout from 46.114.157.221.  Attempt 1
+ScriptLog: Timed out getting player replies.  Attempt 1
+ScriptLog: Ping Timeout from 109.250.17.102 Giving Up
+ScriptLog: Ping Timeout from 91.10.114.37 Giving Up
+ScriptLog: Ping Timeout from 46.114.157.221 Giving Up
+ScriptLog: Ping Timeout from 3.139.132.236 Giving Up
+ScriptLog: Ping Timeout from 177.71.104.245 Giving Up
+ScriptLog: Timed out getting player replies.  Giving Up
 Log: appRequestExit(0)
 Exit: Preparing to exit.
 Log: Collecting garbage
@@ -286,14 +562,22 @@ Log: Unloading: Package UBrowser
 Log: Unbound to IpDrv.dll
 Log: Unloading: Package IpDrv
 Log: Unloading: Package Announcer
+Log: Unloading: Package CityIntro
+Log: Unloading: Package city
 Log: Unloading: Package Detail
 Log: Unloading: Package ArenaTex
 Log: Unloading: Package GenFX
 Log: Unloading: Package NaliCast
+Log: Unloading: Package RainFX
 Log: Unloading: Package DecayedS
+Log: Unloading: Package GenIn
+Log: Unloading: Package NaliFX
 Log: Unloading: Package genfluid
+Log: Unloading: Package ShaneSky
 Log: Unloading: Package AmbModern
 Log: Unloading: Package AmbAncient
+Log: Unloading: Package openingwave
+Log: Unloading: Package Uttitle
 Log: Unloading: Package AmbOutside
 Exit: XOpenGL: Exit
 DevGraphics: UnMapping Buffers
@@ -304,49 +588,34 @@ Log: Unloading: Package UWeb
 Log: Unloading: Package UTServerAdmin
 Log: Unloading: Package IpServer
 Log: Unloading: Package LadrArrow
+Log: Unloading: Package FCommandoSkins
 Log: Unbound to XOpenGLDrv.dll
 Log: Unbound to Galaxy.dll
 DevAudio: Galaxy SetViewport: NULL
 Exit: Galaxy shut down
 Log: Unloading: Package LadderFonts
-Log: Unloading: Package SGirlSkins
-Log: Unloading: Package CommandoSkins
-Init: Shut down moving brush tracker for Level CTF-[R3P]-W007-II-[AMC].MyLevel
 Log: Unloading: Package UWindowFonts
+Log: Unloading: Package MultiMesh
+Log: Unloading: Package EpicCustomModels
 Log: Unbound to udemo.dll
 Log: Unloading: Package udemo
 Log: Unloading: Package utmenu23
+Log: Unloading: Package UTBrowser
+Log: Unloading: Package Crypt2
+Log: Unloading: Package DOM-Cryptic
+Log: Unloading: Package Crypt_FX
+Log: Unloading: Package GenEarth
+Log: Unloading: Package DoorsAnc
+Log: Unloading: Package Skybox
+Log: Unloading: Package GreatFire
+Log: Unloading: Package LavaFX
 Log: Unloading: Package SpaceFX
-Log: Unloading: Package Scripted
-Log: Unloading: Package Mine
-Log: Unloading: Package ISVFX
-Log: Unloading: Package FCommandoSkins
-Log: Unloading: Package CTF-[R3P]-W007-II-[AMC]
-Log: Unloading: Package PK_Tech_Set
-Log: Unloading: Package R3pW007Tex
-Log: Unloading: Package CSMCXExtras
-Log: Unloading: Package SkyR3p
-Log: Unloading: Package swjumppad
-Log: Unloading: Package R3pTex
-Log: Unloading: Package R3pGlass2
-Log: Unloading: Package XC_Siege_r4
-Log: Unloading: Package XbpFX
-Log: Unloading: Package XFX
-Log: Unloading: Package Palettes
-Log: Unloading: Package Liquids
-Log: Unloading: Package W007ExtraHealthy1
-Log: Unloading: Package R3pW007Health
-Log: Unloading: Package Activates
-Log: Unloading: Package VRikers
-Log: Unloading: Package R3pBolt3
-Log: Unloading: Package R3pW007Health2
-Log: Unloading: Package SlowVacuumZone
-Log: Unloading: Package R3pSignW007_part
-Log: Unloading: Package R3pUserFonts7
-Log: Unloading: Package chaossounds2
-Log: Unloading: Package Razor-ub
-Log: Garbage: objects: 36241->0; refs: 0
+Log: Unloading: Package ShaneDay
+Log: Unloading: Package Lian-X
+Log: Unloading: Package Enigma
+Log: Unloading: Package BluffFX
+Log: Garbage: objects: 48312->0; refs: 0
 Exit: Object subsystem successfully closed.
 Exit: Exiting.
 Exit: Allocation checking disabled
-Log: Log file closed, 07/01/23 12:27:01
+Log: Log file closed, 08/09/23 21:59:37
